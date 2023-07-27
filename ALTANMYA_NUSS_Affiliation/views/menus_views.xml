@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_nuss_affiliaters" model="ir.actions.act_window">
+        <field name="name">NUSS Affiliaters</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">nuss.affiliated</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create Your First Record Here!
+            </p>
+        </field>
+    </record>
+
+    <record id="action_in_universities" model="ir.actions.act_window">
+        <field name="name">Universities &amp; Collages</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">in.university</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create Your First University Here!
+            </p>
+        </field>
+    </record>
+
+    <menuitem id="nuss_affiliation_menu_root"
+              name="NUSS Affiliation"
+              web_icon="ALTANMYA_NUSS_Affiliation,static/description/icon.png"
+              sequence="0"/>
+
+    <menuitem id="nuss_affiliaters_menu"
+              name="NUSS Affiliaters"
+              action="action_nuss_affiliaters"
+              parent="nuss_affiliation_menu_root"
+              sequence="20"/>
+
+    <menuitem id="universities_menu"
+              name="Universities &amp; Collages"
+              action="action_in_universities"
+              parent="nuss_affiliation_menu_root"
+              sequence="30"/>
+</odoo>

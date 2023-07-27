@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="res_config_settings_view_form_ta_nuss" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.ta.nuss</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="5"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('settings')]" position="inside">
+                 <div class="app_settings_block" data-string="Selanuss Mail Server" string="Selanuss Mail Server"
+                >
+                    <h2>mail server</h2>
+                    <div class="row mt16 o_settings_container">
+
+                        <div class="col-lg-6 mb-2">
+                            <div>
+                                <label for="mail_server_host"/>
+                                <div class="text-muted">
+                                    please write mail server host
+                                </div>
+                            </div>
+                            <div>
+                                <field name="mail_server_host"/>
+                            </div>
+                        </div>
+
+                       <div class="col-lg-6 mb-2">
+                            <div>
+                                <label for="db_user"/>
+                                <div class="text-muted">
+                                    please write Database User
+                                </div>
+                            </div>
+                            <div>
+                                <field name="db_user"/>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-6 mb-2">
+                            <div>
+                                <label for="db_password"/>
+                                <div class="text-muted">
+                                    please write Database Password
+                                </div>
+                            </div>
+                            <div>
+                                <field name="db_password"/>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-6 mb-2">
+                            <div>
+                                <label for="db_name1"/>
+                                <div class="text-muted">
+                                    please write database name 1
+                                </div>
+                            </div>
+                            <div>
+                                <field name="db_name1"/>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mb-2">
+                            <div>
+                                <label for="db_name2"/>
+                                <div class="text-muted">
+                                     please write database name 2
+                                </div>
+                            </div>
+                            <div>
+                                <field name="db_name2"/>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>
