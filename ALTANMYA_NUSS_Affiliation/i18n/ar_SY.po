@@ -1,0 +1,969 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ALTANMYA_NUSS_Affiliation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e-20221225\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-15 13:49+0000\n"
+"PO-Revision-Date: 2023-03-15 16:51+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar_SY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "0911111111"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__age__18_25
+msgid "18 -> 25"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__age__26_35
+msgid "26 -> 35"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__age__36_45
+msgid "36 -> 45"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__age__46_55
+msgid "46 -> 55"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Academic Year</span>"
+msgstr "<span class=\"s_website_form_label_content\">السنة الدراسية</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Address</span>"
+msgstr "<span class=\"s_website_form_label_content\">العنوان</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Age</span>"
+msgstr "<span class=\"s_website_form_label_content\">العمر</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Birth Country</span>"
+msgstr "<span class=\"s_website_form_label_content\">دولة الولادة</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Birth State</span>"
+msgstr "<span class=\"s_website_form_label_content\">محافظة الولادة</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Birthday</span>"
+msgstr "<span class=\"s_website_form_label_content\">تاريخ الميلاد</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">City</span>"
+msgstr "<span class=\"s_website_form_label_content\">المدينة</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">College / Institute</span>"
+msgstr "<span class=\"s_website_form_label_content\">الكلية / المعهد</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Country Of Residence</span>"
+msgstr "<span class=\"s_website_form_label_content\">دولة الإقامة</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Department</span>"
+msgstr "<span class=\"s_website_form_label_content\">القسم</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Father Name</span>"
+msgstr "<span class=\"s_website_form_label_content\">اسم الأب</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">First Name In Arabic</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">الاسم الأول باللغة العربية</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">First Name In English</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">الاسم الأول باللغة الإنكليزية</"
+"span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Gender</span>"
+msgstr "<span class=\"s_website_form_label_content\">الجنس</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Mobile Number</span>"
+msgstr "<span class=\"s_website_form_label_content\">رقم الجوال</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Mother Name</span>"
+msgstr "<span class=\"s_website_form_label_content\">اسم الأم</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">NGO Name</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">أسماء المنظمات الغير حكومية</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Nickname In Arabic</span>"
+msgstr "<span class=\"s_website_form_label_content\">الكنية باللغة العربية</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Nickname In English</span>"
+msgstr ""
+"<span class=\"s_website_form_label_content\">الكنية باللغة الإنكليزية</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Party Name</span>"
+msgstr "<span class=\"s_website_form_label_content\">أسماء الأحزاب</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Social Status</span>"
+msgstr "<span class=\"s_website_form_label_content\">الحالة الإجتماعية</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">State</span>"
+msgstr "<span class=\"s_website_form_label_content\">المحافظة</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">University</span>"
+msgstr "<span class=\"s_website_form_label_content\">الجامعة</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Volunteer Activities</span>"
+msgstr "<span class=\"s_website_form_label_content\">النشاطات التطوعية</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "<span class=\"s_website_form_label_content\">Your Email</span>"
+msgstr "<span class=\"s_website_form_label_content\">البريد الإلكتروني</span>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.student_login_info_template
+msgid "<span>الرجوع إلى صفحة حسابي</span>"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid ""
+"<strong>\n"
+"                            <span class=\"o_animated_text o_animate "
+"o_anim_zoom_out o_visible\" style=\"animation-delay: 0.1s !important;"
+"\">الانتساب للاتحاد\n"
+"                            </span>\n"
+"                        </strong>"
+msgstr ""
+"<strong>\n"
+"                            <span class=\"o_animated_text o_animate "
+"o_anim_zoom_out o_visible\" style=\"animation-delay: 0.1s !important;"
+"\">الانتساب للإتحاد\n"
+"                            </span>\n"
+"                        </strong>"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.student_login_info_template
+msgid ""
+"<strong>!! تنويه !!</strong>\n"
+"                                <br/>\n"
+"                                <strong>بحال تم تغيير كلمة المرور المتعلقة "
+"بحسابك على المنصة سيتم تغيير</strong>\n"
+"                                <br/>\n"
+"                                <strong>كلمة المرور المتعلقة بحساب خدمة البريد "
+"الإلكتروني الطلابي ، </strong>\n"
+"                                <br/>\n"
+"                                <strong>لكن العكس غير صحيح . </strong>\n"
+"                                <br/>"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.student_login_info_template
+msgid "<strong>خدمة البريد الإلكتروني الطلابي</strong>"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__access_warning
+msgid "Access warning"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_ids
+msgid "Activities"
+msgstr "الأنشطة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__address
+#, python-format
+msgid "Address"
+msgstr "العنوان"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__partner_id
+#, python-format
+msgid "Affiliated Contact"
+msgstr "جهة اتصال المنتسب"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__NGO_affiliated
+#, python-format
+msgid "Affiliated To An NGO"
+msgstr "منتسب لمنظمات غير حكومية"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__user_id
+#, python-format
+msgid "Affiliated User"
+msgstr "مستخدم المنتسب"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__party_affiliated
+#, python-format
+msgid "Affiliated With A Party"
+msgstr "منتسب لحزب"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__age
+#, python-format
+msgid "Age"
+msgstr "العمر"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/controllers/main.py:0
+#, python-format
+msgid "Another user is already registered using this email address."
+msgstr "هناك مستخدم آخر مسجل بنفس البريد الإلكتروني"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/controllers/main.py:0
+#, python-format
+msgid "Authentication Failed."
+msgstr "فشلت عملية المصادقة ."
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__study__bachelor
+#, python-format
+msgid "Bachelor"
+msgstr "بكالوريوس"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__birth_country_id
+#, python-format
+msgid "Birth Country"
+msgstr "دولة الولادة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__birthday
+#, python-format
+msgid "Birth Day"
+msgstr "تاريخ الميلاد"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__birth_state
+#, python-format
+msgid "Birth State"
+msgstr "محافظة الولادة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__city
+#, python-format
+msgid "City"
+msgstr "المدينة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__college_id
+#, python-format
+msgid "College"
+msgstr "الكلية"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "Confirm Password"
+msgstr "تأكيد كلمة المرور"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/controllers/main.py:0
+#, python-format
+msgid "Could not create a new account."
+msgstr "لم يتم إنشاء حساب جديد."
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/controllers/main.py:0
+#, python-format
+msgid "Could not reset your password"
+msgstr "لم يتم إعادة تعيين كلمة المرور."
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__country_id
+#, python-format
+msgid "Country Of Residence"
+msgstr "دولة الإقامة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.actions.act_window,help:ALTANMYA_NUSS_Affiliation.action_nuss_affiliaters
+msgid "Create Your First Record Here!"
+msgstr "قم بإنشاء أول سجل لك هنا!"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.actions.act_window,help:ALTANMYA_NUSS_Affiliation.action_in_universities
+msgid "Create Your First University Here!"
+msgstr "قم بإنشاء أول جامعة أو كلية هنا!"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__create_date
+msgid "Created on"
+msgstr "أنشئ في"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,help:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__access_url
+msgid "Customer Portal URL"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__department_id
+#, python-format
+msgid "Department"
+msgstr "القسم"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__study__diploma
+#, python-format
+msgid "Diploma"
+msgstr "دبلوم"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__email
+#, python-format
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__father_name
+#, python-format
+msgid "Father Name"
+msgstr "اسم الأب"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__gender__female
+#, python-format
+msgid "Female"
+msgstr "أنثى"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__study__fifth_year
+#, python-format
+msgid "Fifth Year"
+msgstr "السنة الخامسة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__first_name
+#, python-format
+msgid "First Name In Arabic"
+msgstr "الاسم الأول باللغة العربية"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__en_first_name
+#, python-format
+msgid "First Name In English"
+msgstr "الاسم الأول باللغة الإنكليزية"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__study__first_year
+#, python-format
+msgid "First Year"
+msgstr "السنة الأولى"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_follower_ids
+msgid "Followers"
+msgstr "المتابعين"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,help:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__study__fourth_year
+#, python-format
+msgid "Fourth Year"
+msgstr "السنة الرابعة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__full_name
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_affiliated_view_form
+#, python-format
+msgid "Full Name"
+msgstr "الاسم الكامل"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__gender
+#, python-format
+msgid "Gender"
+msgstr "الجنس"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__has_message
+msgid "Has Message"
+msgstr "لديك رسالة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__id
+msgid "ID"
+msgstr "المعرف"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,help:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,help:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,help:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_has_error
+#: model:ir.model.fields,help:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/controllers/main.py:0
+#, python-format
+msgid "Invalid signup token"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__gender__male
+#, python-format
+msgid "Male"
+msgstr "ذكر"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__social_status__married
+#, python-format
+msgid "Married"
+msgstr "متزوج"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__study__master
+#, python-format
+msgid "Master"
+msgstr "ماجستير"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في استلام الرسالة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_ids
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__mobile_number
+#, python-format
+msgid "Mobile Number"
+msgstr "رقم الجوال"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__age__more_than_55
+msgid "More Than 55"
+msgstr "أكبر من 55 "
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__mother_name
+#, python-format
+msgid "Mother Name"
+msgstr "اسم الأم"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__NGO_name
+#, python-format
+msgid "NGO Name"
+msgstr "أسماء المنظمات الغير حكومية"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model,name:ALTANMYA_NUSS_Affiliation.model_nuss_affiliated
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_affiliated_view_form
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_affiliated_view_tree
+msgid "NUSS Affiliated"
+msgstr "منتسب الاتحاد"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.actions.act_window,name:ALTANMYA_NUSS_Affiliation.action_nuss_affiliaters
+#: model:ir.ui.menu,name:ALTANMYA_NUSS_Affiliation.nuss_affiliaters_menu
+msgid "NUSS Affiliaters"
+msgstr "منتسبين الاتحاد"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.ui.menu,name:ALTANMYA_NUSS_Affiliation.nuss_affiliation_menu_root
+msgid "NUSS Affiliation"
+msgstr "الانتساب للاتحاد"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__nickname
+#, python-format
+msgid "Nickname In Arabic"
+msgstr "الكنية باللغة العربية"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__en_nickname
+#, python-format
+msgid "Nickname In English"
+msgstr "الكنية باللغة الإنكليزية"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/controllers/main.py:0
+#, python-format
+msgid "No login provided."
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "Non-Governmental Organizations affiliated"
+msgstr "منتسب لمنظمات غير حكومية"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,help:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,help:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "Party Affiliated"
+msgstr "منتسب لحزب"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__party_name
+#, python-format
+msgid "Party Name"
+msgstr "أسماء الأحزاب"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "Password"
+msgstr "كلمة المرور"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/controllers/main.py:0
+#, python-format
+msgid "Password reset instructions sent to your email"
+msgstr "خطوات إعادة تعيين كلمة المرور تم ارسالها لبريدك الإلكتروني"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/controllers/main.py:0
+#, python-format
+msgid "Passwords do not match; please retype them."
+msgstr "كلمة المرور غير متطابقة; يرجى إعادة إدخالها."
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__study__phd
+#, python-format
+msgid "Ph.D"
+msgstr "دكتوراه"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__access_url
+msgid "Portal Access URL"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في استلام الرسالة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__study__second_year
+#, python-format
+msgid "Second Year"
+msgstr "السنة الثانية"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__access_token
+msgid "Security Token"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/res_users_inherit.py:0
+#, python-format
+msgid "Setting empty passwords is not allowed for security reasons!"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__social_status__single
+#, python-format
+msgid "Single"
+msgstr "عازب"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__study__sixth_year
+#, python-format
+msgid "Sixth Year"
+msgstr "السنة السادسة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__social_status
+#, python-format
+msgid "Social Status"
+msgstr "الحالة الإجتماعية"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__state
+#, python-format
+msgid "State"
+msgstr "المحافظة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,help:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__student_email
+#, python-format
+msgid "Student Email"
+msgstr "البريد الإلكتروني الطلابي"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.portal_template_inherit
+msgid "Student Email Info"
+msgstr "معلومات البريد الطلابي"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.portal_template_inherit
+msgid "Student Login Email"
+msgstr "بريد تسجيل الدخول والبريد الطلابي"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__study
+#, python-format
+msgid "Study"
+msgstr "السنة الدراسية"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/controllers/main.py:0
+#, python-format
+msgid "The form was not properly filled in."
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields.selection,name:ALTANMYA_NUSS_Affiliation.selection__nuss_affiliated__study__third_year
+#, python-format
+msgid "Third Year"
+msgstr "السنة الثالثة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,help:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.actions.act_window,name:ALTANMYA_NUSS_Affiliation.action_in_universities
+#: model:ir.ui.menu,name:ALTANMYA_NUSS_Affiliation.universities_menu
+msgid "Universities & Collages"
+msgstr "الجامعات و الكليات"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__university_id
+#, python-format
+msgid "University"
+msgstr "الجامعة"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model,name:ALTANMYA_NUSS_Affiliation.model_res_users
+msgid "User"
+msgstr "المستخدم"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#. odoo-python
+#: code:addons/ALTANMYA_NUSS_Affiliation/models/nuss_affiliated.py:0
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__volunteer_activities
+#, python-format
+msgid "Volunteer Activities"
+msgstr "النشاطات التطوعية"
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,field_description:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model:ir.model.fields,help:ALTANMYA_NUSS_Affiliation.field_nuss_affiliated__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.nuss_signup_fields
+msgid "example@gmail.com"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.student_login_info_template
+msgid ""
+"الإلكتروني السابق مع نفس كلمة المرور المدخلة عند التسجيل على المنصة عبر الرابط "
+"التالي"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.student_login_info_template
+msgid "بريدك الإلكتروني المستخدم لتسجيل الدخول على منصة صلة هو"
+msgstr ""
+
+#. module: ALTANMYA_NUSS_Affiliation
+#: model_terms:ir.ui.view,arch_db:ALTANMYA_NUSS_Affiliation.student_login_info_template
+msgid ""
+"يمكنك الاستفادة من خدمة البريد الإلكتروني الطلابي عن طريق تسجيل الدخول بنفس "
+"البريد"
+msgstr ""

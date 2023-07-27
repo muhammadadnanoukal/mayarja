@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="ALTANMYA_NUSS_Affiliation.student_login_info_template">
+        <t t-call="website.layout">
+            <section class="s_website_form pb16 nuss_affiliation_form o_colored_level o_full_screen_height pt40"
+                     data-snippet="s_website_form" data-name="Form" style="background-image: none;">
+                <div class="o_container_small">
+                    <div class="s_website_form_rows row s_col_no_bgcolor">
+                        <div class="align_right">
+                            <center>
+                                <p>بريدك الإلكتروني المستخدم لتسجيل الدخول على منصة صلة هو</p>
+                                <label t-esc="login" style="font-weight:bold;"/>
+                            </center>
+                        </div>
+                        <div class="spacer-div" style="height: 15px;"/>
+                        <hr/>
+                        <div class="spacer-div" style="height: 15px;"/>
+                        <div class="align_right">
+                            <center>
+                                <p>يمكنك الاستفادة من خدمة البريد الإلكتروني الطلابي عن طريق تسجيل الدخول بنفس البريد </p>
+                                <p>الإلكتروني السابق مع نفس كلمة المرور المدخلة عند التسجيل على المنصة عبر الرابط التالي</p>
+                                <a href="https://mail.selanuss.org/mail/">
+                                    <strong>خدمة البريد الإلكتروني الطلابي</strong>
+                                </a>
+                            </center>
+                        </div>
+                        <div class="spacer-div" style="height: 15px;"/>
+                        <hr/>
+                        <div class="spacer-div" style="height: 15px;"/>
+                        <div class="alert alert-danger align_right" role="alert">
+                            <p class="px-2 py-2 text-center">
+                                <strong>!! تنويه !!</strong>
+                                <br/>
+                                <strong>بحال تم تغيير كلمة المرور المتعلقة بحسابك على المنصة سيتم تغيير</strong>
+                                <br/>
+                                <strong>كلمة المرور المتعلقة بحساب خدمة البريد الإلكتروني الطلابي ، </strong>
+                                <br/>
+                                <strong>لكن العكس غير صحيح . </strong>
+                                <br/>
+                            </p>
+                        </div>
+                        <div class="spacer-div" style="height: 15px;"/>
+                        <hr/>
+                        <div class="spacer-div" style="height: 15px;"/>
+                        <div class="align_right">
+                            <t>
+                                <i class="fa fa-arrow-right mx-2"/>
+                                <a href="/my/home">
+                                    <span>الرجوع إلى صفحة حسابي</span>
+                                </a>
+                            </t>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </t>
+    </template>
+
+    <template id="portal_template_inherit" inherit_id="portal.portal_layout">
+        <xpath expr="//div[@class='o_portal_my_details']" position="before">
+            <div class="o_portal_my_security mt-3">
+                <h4>Student Login Email</h4>
+                <hr class="mt-1 mb-1"/>
+                <div class="d-flex justify-content-start align-items-center gap-2">
+                    <i class="fa fa-user"/>
+                    <div t-field="user_id.login"/>
+                </div>
+                <div class="spacer-div" style="height: 5px;"/>
+                <a href="/my/student_email">Student Email Info</a>
+                <div class="spacer-div" style="height: 15px;"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>

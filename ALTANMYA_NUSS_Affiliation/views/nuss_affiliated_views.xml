@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id='nuss_affiliated_view_form' model='ir.ui.view'>
+        <field name="name">nuss.affiliated.view.form</field>
+        <field name="model">nuss.affiliated</field>
+        <field name="arch" type="xml">
+            <form string="NUSS Affiliated">
+                <sheet>
+                    <div class="oe_title">
+                        <h1>
+                            <field class="text-break" name="full_name" placeholder="Full Name"/>
+                        </h1>
+                    </div>
+
+                    <group>
+                        <group>
+                            <field name="user_id"/>
+                            <field name="partner_id"/>
+                            <field name="student_email"/>
+                            <field name="first_name"/>
+                            <field name="nickname"/>
+                            <field name="en_first_name"/>
+                            <field name="en_nickname"/>
+                            <field name="father_name"/>
+                            <field name="mother_name"/>
+                            <field name="social_status" widget="radio" options="{'horizontal': True}"/>
+                            <field name="gender" widget="radio" options="{'horizontal': True}"/>
+                            <field name="age"/>
+                            <field name="birth_country_id"/>
+                            <field name="birth_state"/>
+                            <field name="birthday"/>
+                        </group>
+                        <group>
+                            <field name="country_id"/>
+                            <field name="state"/>
+                            <field name="city"/>
+                            <field name="address"/>
+                            <field name="mobile_number" widget="phone"/>
+                            <field name="email"/>
+                            <field name="study"/>
+                            <field name="university_id"/>
+                            <field name="college_id"/>
+                            <field name="department_id"/>
+                            <field name="party_affiliated"/>
+                            <field name="party_name" attrs="{'invisible': [('party_affiliated', '=', False)]}"/>
+                            <field name="NGO_affiliated"/>
+                            <field name="NGO_name" attrs="{'invisible': [('NGO_affiliated', '=', False)]}"/>
+                            <field name="volunteer_activities"/>
+                        </group>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="nuss_affiliated_view_tree" model='ir.ui.view'>
+        <field name="name">nuss.affiliated.view.tree</field>
+        <field name="model">nuss.affiliated</field>
+        <field name="arch" type="xml">
+            <tree string="NUSS Affiliated">
+                <field name="full_name" class="fw-bold"/>
+                <field name="father_name"/>
+                <field name="mother_name"/>
+                <field name="gender"/>
+                <field name="age"/>
+                <field name="birthday"/>
+            </tree>
+        </field>
+    </record>
+</odoo>
