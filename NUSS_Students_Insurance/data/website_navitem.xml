@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="menu_insurance_request" model="website.menu">
+            <field name="name">Student Insurance Request</field>
+            <field name="url">/insurance_request</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">60</field>
+        </record>
+
+        <record id="menu_expenses_management_companies" model="website.menu">
+            <field name="name">Expenses Management Companies</field>
+            <field name="url">/expenses_management_companies</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">70</field>
+        </record>
+
+        <record id="menu_payment_methods" model="website.menu">
+            <field name="name">Payment Methods</field>
+            <field name="url">/payment_methods</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">80</field>
+        </record>
+
+        <record id="menu_insurance_types" model="website.menu">
+            <field name="name">Insurance Types</field>
+            <field name="url">/insurance_types</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">90</field>
+        </record>
+    </data>
+</odoo>

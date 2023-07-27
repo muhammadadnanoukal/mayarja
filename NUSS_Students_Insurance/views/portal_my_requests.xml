@@ -1,0 +1,128 @@
+<odoo>
+    <template id="portal_my_insurance_requests" name="My Insurance Requests">
+        <t t-call="portal.portal_layout">
+            <t t-set="breadcrumbs_searchbar" t-value="True"/>
+
+            <t t-call="portal.portal_searchbar">
+                <t t-set="title">Insurance Requests</t>
+            </t>
+            <t t-if="not requests">
+                <p>There are currently no insurance requests for your account.</p>
+            </t>
+            <t t-if="requests" t-call="portal.portal_table">
+                <thead>
+                    <tr class="active">
+                        <th>Insurance Request Number</th>
+                        <th class='d-none d-md-table-cell'>Expiration Date</th>
+                        <th class="text-center">Status</th>
+                        <th class="text-center">Payment Link</th>
+                        <th class="text-center">Insurance Number</th>
+                        <th class="text-center">My Card</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <t t-foreach="requests" t-as="request">
+                        <tr>
+                            <td>
+                                <span t-att-title="request.name">
+                                    <t t-esc="request.name"/>
+                                </span>
+                            </td>
+                            <td class='d-none d-md-table-cell'>
+                                <t t-if="request.insurance_expiration_date and request.state in ['paid', 'expired']">
+                                    <span t-field="request.insurance_expiration_date"/>
+                                </t>
+                                <t t-else="">
+                                    <span>Not available</span>
+                                </t>
+                            </td>
+                            <td class="tx_status text-center">
+                                <t t-if="request.state == 'paid'">
+                                    <span class="badge rounded-pill text-bg-success">
+                                        <i class="fa fa-fw fa-check" aria-label="Paid" title="Paid" role="img"/>
+                                        <span class="d-none d-md-inline">Paid</span>
+                                    </span>
+                                </t>
+                                <t t-if="request.state == 'refused'">
+                                    <span class="badge rounded-pill text-bg-danger">
+                                        <i class="fa fa-fw fa-remove" aria-label="Refused" title="Refused"
+                                           role="img"/>
+                                        <span class="d-none d-md-inline">Refused</span>
+                                    </span>
+                                </t>
+                                <t t-if="request.state == 'expired'">
+                                    <span class="badge rounded-pill text-bg-danger">
+                                        <i class="fa fa-fw fa-remove" aria-label="Expired" title="Expired"
+                                           role="img"/>
+                                        <span class="d-none d-md-inline">Expired</span>
+                                    </span>
+                                </t>
+                                <t t-if="request.state == 'approved'">
+                                    <span class="badge rounded-pill text-bg-info">
+                                        <i class="fa fa-fw fa-check" aria-label="Approved" title="Approved"
+                                           role="img"/>
+                                        <span class="d-none d-md-inline">Approved</span>
+                                    </span>
+                                </t>
+                                <t t-if="request.state == 'waiting'">
+                                    <span class="badge rounded-pill text-bg-warning">
+                                        <i class="fa fa-fw fa-clock-o" aria-label="Waiting" title="Waiting"
+                                           role="img"/>
+                                        <span class="d-none d-md-inline">Waiting</span>
+                                    </span>
+                                </t>
+                            </td>
+                            <td>
+                                <t t-if="request.state == 'approved'">
+                                    <a t-attf-href="/payment_methods/#{request.id}">
+                                        <i class="fa fa-fw fa-arrow-right mx-1" aria-label="Payment Link"
+                                           title="Payment Link"
+                                           role="img"/>
+                                        Go to payment form
+                                    </a>
+                                </t>
+                                <t t-else="">
+                                    <span style="color:#6E1420">Link is not available</span>
+                                </t>
+                            </td>
+                            <td class='d-md-table-cell text-center'>
+                                <t t-if="request.insurance_number and request.insurance_expiration_date and request.state == 'paid'">
+                                    <span t-field="request.insurance_number"/>
+                                </t>
+                                <t t-else="">
+                                    <span>Not available</span>
+                                </t>
+                            </td>
+                            <td class='d-md-table-cell text-center'>
+                                <t t-if="request.insurance_number and request.insurance_expiration_date and request.state == 'paid'">
+                                    <a  t-attf-href="/my/insurance_card/#{request.id}">
+                                        <i class="fa fa-fw fa-arrow-right mx-1" aria-label="My Card"
+                                           title="My Card"
+                                           role="img"/>
+                                        Show my card
+                                    </a>
+                                </t>
+                                <t t-else="">
+                                    <span>Not available</span>
+                                </t>
+                            </td>
+
+                        </tr>
+                    </t>
+                </tbody>
+            </t>
+        </t>
+    </template>
+
+    <template id="portal_my_home_insurance_requests" name="Show My Insurance Requests" customize_show="True"
+              inherit_id="portal.portal_my_home" priority="100">
+        <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
+            <t t-call="portal.portal_docs_entry">
+                <t t-set="title">My Insurance Requests</t>
+                <t t-set="url" t-value="'/my/insurance_requests'"/>
+                <t t-set="placeholder_count" t-value="'insurance_requests_count'"/>
+            </t>
+        </xpath>
+    </template>
+
+</odoo>

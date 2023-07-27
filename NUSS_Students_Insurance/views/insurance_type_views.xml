@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id='insurance_type_view_form' model='ir.ui.view'>
+        <field name="name">insurance.type.view.form</field>
+        <field name="model">insurance.type</field>
+        <field name="arch" type="xml">
+            <form string="Insurance Type">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="coverages"/>
+                            <field name="insurance_type" widget="radio"/>
+                        </group>
+                        <group>
+                            <field name="financial_limit"/>
+                            <label for="insurance_fees" string="Insurance Fees"/>
+                            <div class="o_row">
+                                <field name="insurance_fees" class="float-right"/>
+                                <span>(ل.س)</span>
+                            </div>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="insurance_type_view_tree" model='ir.ui.view'>
+        <field name="name">insurance.type.view.tree</field>
+        <field name="model">insurance.type</field>
+        <field name="arch" type="xml">
+            <tree string="Insurance Request">
+                <field name="name"/>
+                <field name="coverages"/>
+                <field name="financial_limit"/>
+                <field name="insurance_fees"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="insurance_type_rec_1" model="insurance.type">
+            <field name="name">الحوادث الشخصية</field>
+            <field name="coverages">الوفاة لأي سبب , العجز الكلي والجزئي ونفقات طبية مالي 1,500,000 ل.س
+                التغطية التأمينية على مدار ال 24 ساعة من خلال ادارة شركة النفقات الطبية
+            </field>
+            <field name="financial_limit">1,500,000 ل.س</field>
+            <field name="insurance_fees">1500</field>
+            <field name="insurance_type">type_1</field>
+        </record>
+        <record id="insurance_type_rec_2" model="insurance.type">
+            <field name="name">التأمين الصحي الفضي</field>
+            <field name="coverages">داخل المشفى فقط
+                العمليات الجراحية
+                الشبكات القلبية مغطاة من ضمن الحد المالي داخل المشفى بعد مرور فترة الانتظار
+                البدائل مغطاة نتيجة جادث او مرض مغطاة ضمن الحد المالي للتغطية داخل المشفى
+                معالجة الاورام السرطانية مغطاة ضمن الحد المالي للتغطية داخل المشفى للعمليات الجراحية
+                الحمل والولادة وجراحة الانف غير مغطاة
+            </field>
+            <field name="financial_limit">مفتوح بدون حد مالي</field>
+            <field name="insurance_fees">50000</field>
+            <field name="insurance_type">type_2</field>
+        </record>
+        <record id="insurance_type_rec_3" model="insurance.type">
+            <field name="name">التأمين الصحي الذهبي</field>
+            <field name="coverages">داخل وخارج المشفى
+                داخل المشفى
+                العمليات الجراحية
+                الشبكات القلبية مغطاة من ضمن الحد المالي داخل المشفى بعد مرور فترة الانتظار
+                البدائل مغطاة نتيجة حادث او مرض مغطاة ضمن الحد المالي للتغطية داخل المشفى حد مالي ( 800,000) ل.س
+                معالجة اورام السرطانية مغطاة ضمن الحد المالي للتغطية داخل المشفى للعمليات الجراحية بعد مرور فترة
+                الانتظار
+                خارج المشفى
+                زيارة الطبيب . 10 زيارات
+                الفحوصات الخارجية .10 اجراءات
+                الادوية 10 وصفة
+                الادوية المزمنة . 12 ومن ضمن الحد المالي للتغطية خارج المشفى
+                الحمل والولادة وجراحة الانف غير مغطاة داخل وخارج المشفى
+                داخل المشفى
+                العمليات الجراحية
+                الشبكات القلبية مغطاة لغاية 2,000,000 ل.س بعد مرور فترة الانتظار
+                البدائل مغطاة نتيجة حادث لغاية 5,000,000 ل.س
+                ونتيجة مرض لغاية 2,000,000 ل.س
+                معالجة الاورام السرطانية مغطاة للعمليات الجراحية بعد مرور فترة الانتظار
+                خارج المشفى
+                زيارة الطبيب .12 زيارات
+                الفحوصات الخارجية .12 اجراءات
+                الادوية .12 وصفة
+                الادوية المزمنة .12 وصفة نسبة التحمل 35%
+                الحمل والولادة وجراحة الانف غير مغطاة
+            </field>
+            <field name="financial_limit">داخل المشفى 2,000,000 ل.س خارج المشفى 200,000 ل.س
+            </field>
+            <field name="insurance_fees">100000</field>
+            <field name="insurance_type">type_2</field>
+        </record>
+        <record id="insurance_type_rec_4" model="insurance.type">
+            <field name="name">التأمين الصحي الألماسي</field>
+            <field name="coverages">داخل وخارج المشفى
+                داخل المشفى
+                العمليات الجراحية
+                الشبكات القلبية مغطاة لغاية 2,000,000 ل.س بعد مرور فترة الانتظار
+                البدائل مغطاة نتيجة حادث لغاية 5,000,000 ل.س
+                ونتيجة مرض لغاية 2,000,000 ل.س
+                معالجة الاورام السرطانية مغطاة للعمليات الجراحية بعد مرور فترة الانتظار
+                خارج المشفى
+                زيارة الطبيب .12 زيارات
+                الفحوصات الخارجية .12 اجراءات
+                الادوية .12 وصفة
+                الادوية المزمنة .12 وصفة نسبة التحمل 35%
+                الحمل والولادة وجراحة الانف غير مغطاة
+            </field>
+            <field name="financial_limit">داخل المشفى بدون حد مالي خارج المشفى حد مالي 750,000 ل.س
+            </field>
+            <field name="insurance_fees">150000</field>
+            <field name="insurance_type">type_2</field>
+        </record>
+
+        <record id="default_messaging_api" model="in.messaging.api">
+            <field name="username">NUSS-SHI1</field>
+            <field name="password">Nu$$1950#</field>
+            <field name="sender">NUSS-SHI</field>
+            <field name="active_account">True</field>
+        </record>
+
+        <record id="payment_method_mtn" model="in.payment.method">
+            <field name="image_256" type="base64" file="NUSS_Students_Insurance/static/payment_methods_icons/mtn.png"/>
+            <field name="name">MTN</field>
+            <field name="type">mtn_syriatel</field>
+            <field name="ms_type">mtn</field>
+            <field name="merchant_username">test_usr</field>
+            <field name="merchant_password">testUSR23MTN@</field>
+            <field name="mobile">0944222963</field>
+            <field name="active_account">True</field>
+        </record>
+
+        <record id="payment_method_syriatel" model="in.payment.method">
+            <field name="image_256" type="base64"
+                   file="NUSS_Students_Insurance/static/payment_methods_icons/syriatel.png"/>
+            <field name="name">Syriatel</field>
+            <field name="type">mtn_syriatel</field>
+            <field name="ms_type">syriatel</field>
+            <field name="merchant_username">Nuss</field>
+            <field name="merchant_password">N@ss!23PA</field>
+            <field name="mobile">0995182182</field>
+            <field name="active_account">True</field>
+        </record>
+
+        <record id="in_message_approve" model="in.messaging">
+            <field name="name">لقد تم قبول طلبك بنجاح!</field>
+            <field name="type">approved</field>
+        </record>
+
+        <record id="in_message_refuse" model="in.messaging">
+            <field name="name">عذراً، لقد تم رفض طلبك!</field>
+            <field name="type">rejected</field>
+        </record>
+
+        <record id="emp_1" model="expenses.management.company">
+            <field name="image_256" type="base64" file="NUSS_Students_Insurance/static/emc_icons/GlobeMed.jpg"/>
+            <field name="name">غلوب مد</field>
+            <field name="quadruple_phone">0119492</field>
+            <field name="phone">0112181600</field>
+            <field name="mobile_phone">0994009492</field>
+            <field name="website">http://www.globemedsyria.com</field>
+        </record>
+
+        <record id="emp_2" model="expenses.management.company">
+            <field name="image_256" type="base64" file="NUSS_Students_Insurance/static/emc_icons/IMPA.jpg"/>
+            <field name="name">إيمبا</field>
+            <field name="quadruple_phone">0119033</field>
+            <field name="phone">---</field>
+            <field name="mobile_phone">0933088220</field>
+            <field name="website">http://www.impa-tpa.com</field>
+        </record>
+
+        <record id="emp_3" model="expenses.management.company">
+            <field name="image_256" type="base64" file="NUSS_Students_Insurance/static/emc_icons/BestAssistance.jpg"/>
+            <field name="name">شركة الخدمات المميزة</field>
+            <field name="quadruple_phone">0119509</field>
+            <field name="phone">---</field>
+            <field name="mobile_phone">0944225250</field>
+            <field name="website">https://www.bestassistance.com/</field>
+        </record>
+
+        <record id="menu_create_insurance_request" model="website.menu">
+            <field name="name">إنشاء طلب تأمين</field>
+            <field name="url">/insurance_request</field>
+            <field name="sequence">1</field>
+        </record>
+
+        <record id="menu_emcs" model="website.menu">
+            <field name="name">شركات إدارة النفقات</field>
+            <field name="url">/expenses_management_companies</field>
+            <field name="sequence">2</field>
+        </record>
+
+        <record id="menu_insurance_types" model="website.menu">
+            <field name="name">أنواع التأمين</field>
+            <field name="url">/insurance_types</field>
+            <field name="sequence">3</field>
+        </record>
+
+        <record id="menu_payment_methods" model="website.menu">
+            <field name="name">وسائل الدفع</field>
+            <field name="url">/payment_methods</field>
+            <field name="sequence">4</field>
+        </record>
+
+        <record id="menu_insurance" model="website.menu">
+            <field name="name">التأمين الطلابي</field>
+            <field name="sequence">55</field>
+            <field name="child_id"
+                   eval="[(6, 0, [ref('menu_create_insurance_request'),
+                                  ref('menu_emcs'),
+                                  ref('menu_insurance_types'),
+                                  ref('menu_payment_methods')
+                                  ])]"/>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,211 @@
+<t t-name="website.insurance-request">
+  <t t-call="website.layout">
+    <div id="wrap" class="oe_structure oe_empty">
+      <section class="s_cover parallax s_parallax_is_fixed bg-black-50 o_colored_level pb0 pt56" data-scroll-background-ratio="1" data-snippet="s_cover" data-name="Cover" style="background-image: none;">
+        <span class="s_parallax_bg oe_img_bg o_we_force_no_transition" style="background-image: url('/web/image/website.s_cover_default_image'); background-position: 50% 0;"/>
+        <div class="o_we_bg_filter bg-black-50"/>
+        <div class="s_allow_columns container" data-bs-original-title="" title="" aria-describedby="tooltip247589">
+          <h2>​<span class="oe-tabs" style="width: 7.9875px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span><span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​​طلب التأمين ضمان لإلك<span class="oe-tabs" style="width: 29.2625px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​</h2>
+          <h2>
+</h2>
+          <h4><span class="oe-tabs" style="width: 10.9875px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​<span class="oe-tabs" style="width: 40px;">	</span>​</h4>
+          <p style="text-align: center;" data-bs-original-title="" title="" aria-describedby="tooltip161646">
+            ​أدخل جميع المعلومات المطلوبة
+          <br/></p>
+        </div>
+      </section>
+      <section class="s_website_form pb16 o_colored_level o_full_screen_height pt40" data-vcss="001" data-snippet="s_website_form" data-name="Form" style="background-image: none;" data-bs-original-title="" title="" aria-describedby="tooltip712134">
+        <div class="o_container_small">
+          <form action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required" data-mark="" data-pre-fill="true" data-success-mode="redirect" data-success-page="/contactus-thank-you" data-model_name="project.task">
+            <div class="s_website_form_rows row s_col_no_bgcolor" data-bs-original-title="" title="" aria-describedby="tooltip222105">
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 s_website_form_model_required o_anim_fade_in o_animate o_visible col-lg-12 pb0 pt0" data-type="char" data-name="Field" style="">
+                <label dir="rtl" class="s_website_form_label" style="width: 150px" for="oxv6jbolq3n9">
+                  <span class="s_website_form_label_content">رقم الهاتف</span>
+                </label>
+                <input type="text" class="form-control s_website_form_input" name="name" required="true" value="" placeholder="" id="oxv6jbolq3n9" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-12 s_website_form_model_required o_anim_fade_in o_animate o_visible" data-type="char" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="o8ql2rkbvjbf">
+                  <span class="s_website_form_label_content">رمز التأكيد</span>
+                </label>
+                <input type="text" class="form-control s_website_form_input" name="email_from" required="true" placeholder="" id="o8ql2rkbvjbf" data-fill-with="email"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-12 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="many2one" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="oq3sb8uw76kl">
+                  <span class="s_website_form_label_content">نوع التأمين</span>
+                </label>
+                <select class="form-select s_website_form_input" name="نوع التأمين" id="oq3sb8uw76kl" style="">
+                  <option value="Option 1" selected="selected">Option 1</option>
+                  <option value="Option 2">Option 2</option>
+                  <option value="Option 3">Option 3</option>
+                </select>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="char" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="ost3xayoa87">
+                  <span class="s_website_form_label_content">الاسم الأول</span>
+                </label>
+                <input type="text" class="form-control s_website_form_input" name="الاسم الأول" value="" placeholder="" id="ost3xayoa87" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="char" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="oisbjwnc951">
+                  <span class="s_website_form_label_content">الاسم الأخير</span>
+                </label>
+                <input type="text" class="form-control s_website_form_input" name="الاسم الأخير" value="" placeholder="" id="oisbjwnc951" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 s_website_form_custom col-lg-6 o_anim_fade_in o_animate o_visible" data-type="char" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="ortm3nr3f65m">
+                  <span class="s_website_form_label_content">اسم الأب</span>
+                </label>
+                <input type="text" class="form-control s_website_form_input" name="اسم الأب" value="" placeholder="" id="ortm3nr3f65m" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="char" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="o5mho3xua9om">
+                  <span class="s_website_form_label_content">اسم الأم</span>
+                </label>
+                <input type="text" class="form-control s_website_form_input" name="اسم الأم" value="" placeholder="" id="o5mho3xua9om" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="selection" data-name="Field" style="">
+                <div class="row s_col_no_resize s_col_no_bgcolor">
+                  <label class=" col-sm-auto s_website_form_label " style="width: 150px" for="ohzyqaurcl1r">
+                    <span class="s_website_form_label_content">الجنس</span>
+                  </label>
+                  <div class="col-sm">
+                    <div class="row s_col_no_resize s_col_no_bgcolor s_website_form_multiple" data-name="الجنس" data-display="vertical">
+                      <div class="radio col-12 ">
+                        <div class="form-check">
+                          <input type="radio" class="s_website_form_input form-check-input" id="ohzyqaurcl1r0" name="الجنس" value="أنثى" data-fill-with="undefined"/>
+                          <label class="form-check-label s_website_form_check_label" for="ohzyqaurcl1r0">
+                    أنثى
+                </label>
+                        </div>
+                      </div>
+                      <div class="radio col-12 ">
+                        <div class="form-check">
+                          <input type="radio" class="s_website_form_input form-check-input" id="ohzyqaurcl1r1" name="الجنس" value="ذكر"/>
+                          <label class="form-check-label s_website_form_check_label" for="ohzyqaurcl1r1">
+                    ذكر
+                </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="selection" data-name="Field" style="">
+                <div class="row s_col_no_resize s_col_no_bgcolor">
+                  <label class=" col-sm-auto s_website_form_label " style="width: 150px" for="ofhkp7rmzzba">
+                    <span class="s_website_form_label_content">الحالة الإجتماعية</span>
+                  </label>
+                  <div class="col-sm">
+                    <div class="row s_col_no_resize s_col_no_bgcolor s_website_form_multiple" data-name="الحالة الإجتماعية" data-display="vertical">
+                      <div class="radio col-12 ">
+                        <div class="form-check">
+                          <input type="radio" class="s_website_form_input form-check-input" id="ofhkp7rmzzba0" name="الحالة الإجتماعية" value="عازب" data-fill-with="undefined"/>
+                          <label class="form-check-label s_website_form_check_label" for="ofhkp7rmzzba0">
+                    عازب
+                </label>
+                        </div>
+                      </div>
+                      <div class="radio col-12 ">
+                        <div class="form-check">
+                          <input type="radio" class="s_website_form_input form-check-input" id="ofhkp7rmzzba1" name="الحالة الإجتماعية" value="متزوج"/>
+                          <label class="form-check-label s_website_form_check_label" for="ofhkp7rmzzba1">
+                    متزوج
+                </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="date" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="ovurydxqhf99">
+                  <span class="s_website_form_label_content">تاريخ الميلاد</span>
+                </label>
+                <div class="s_website_form_date input-group date" id="datepicker3960820691119018" data-target-input="nearest">
+                  <input type="text" class="form-control datetimepicker-input s_website_form_input" data-target="#datepicker3960820691119018" name="تاريخ الميلاد" placeholder="" id="ovurydxqhf99" data-fill-with="undefined"/>
+                  <div class="input-group-text" data-target="#datepicker3960820691119018" data-toggle="datetimepicker">
+                    <i class="fa fa-calendar"/>
+                  </div>
+                </div>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="char" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="o8sl1wgjwpyo">
+                  <span class="s_website_form_label_content">الرقم الوطني</span>
+                </label>
+                <input type="text" class="form-control s_website_form_input" name="الرقم الوطني" value="" placeholder="" id="o8sl1wgjwpyo" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="binary" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="ocifj416gq9w">
+                  <span class="s_website_form_label_content">الوجه الأمامي للهوية</span>
+                </label>
+                <input type="file" class="form-control-file s_website_form_input" name="الوجه الأمامي للهوية" id="ocifj416gq9w" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="binary" data-name="Field" style="">
+                <div class="row s_col_no_resize s_col_no_bgcolor">
+                  <label class=" col-sm-auto s_website_form_label " style="width: 150px" for="oalv106ysfy9">
+                    <span class="s_website_form_label_content">الوجه الخلفي للهوية</span>
+                  </label>
+                  <div class="col-sm">
+                    <input type="file" class="form-control-file s_website_form_input" name="الوجه الخلفي للهوية" id="oalv106ysfy9" data-fill-with="undefined"/>
+                  </div>
+                </div>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-12 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="char" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="oq4ykejksmq">
+                  <span class="s_website_form_label_content">الرقم الجامعي</span>
+                </label>
+                <input type="text" class="form-control s_website_form_input" name="الرقم الجامعي" value="" placeholder="" id="oq4ykejksmq" data-fill-with="undefined"/>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="many2one" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="os6bsgr1kdvk">
+                  <span class="s_website_form_label_content">مكان الإقامة</span>
+                </label>
+                <select class="form-select s_website_form_input" name="مكان الإقامة" id="os6bsgr1kdvk" style="">
+                  <option value="Option 3" selected="selected">Option 3</option>
+                </select>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="many2one" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="oowarqh1rf6p">
+                  <span class="s_website_form_label_content">الجامعة</span>
+                </label>
+                <select class="form-select s_website_form_input" name="الجامعة" id="oowarqh1rf6p" style="">
+                  <option value="Option 3" selected="selected">Option 3</option>
+                </select>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="many2one" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="oew1tmxaa61n">
+                  <span class="s_website_form_label_content">الكلية</span>
+                </label>
+                <select class="form-select s_website_form_input" name="الكلية" id="oew1tmxaa61n" style="">
+                  <option value="Option 3" selected="selected">Option 3</option>
+                </select>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-6 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="many2one" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="ovth0u1edtd">
+                  <span class="s_website_form_label_content">السنة</span>
+                </label>
+                <select class="form-select s_website_form_input" name="السنة" id="ovth0u1edtd" style="">
+                  <option value="Option 3" selected="selected">Option 3</option>
+                </select>
+              </div>
+              <div data-visibility-condition="" data-visibility-between="" class="s_website_form_field mb-3 col-12 col-lg-12 s_website_form_custom o_anim_fade_in o_animate o_visible" data-type="binary" data-name="Field" style="">
+                <label class="s_website_form_label " style="width: 150px" for="oi1u0nkrhb1b">
+                  <span class="s_website_form_label_content">البطاقة الجامعية</span>
+                </label>
+                <input type="file" class="form-control-file s_website_form_input" name="البطاقة الجامعية" id="oi1u0nkrhb1b" data-fill-with="undefined"/>
+              </div>
+              <div class="mb-0 py-2 col-12 s_website_form_submit col-lg-12" data-name="Submit Button" data-bs-original-title="" title="" aria-describedby="tooltip619870">
+                <div style="width: 150px !important;" class="s_website_form_label"/>
+                <a href="#" role="button" class="s_website_form_send o_anim_fade_in o_animate btn btn-primary btn-lg o_visible" data-bs-original-title="" title="" style="">
+                  <span data-bs-original-title="" title="" aria-describedby="tooltip224262" style="font-size: 18px;">&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; إرسال&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;</span>
+                </a>
+                <span id="s_website_form_result"/>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </div>
+  </t>
+</t>

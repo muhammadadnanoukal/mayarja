@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="NUSS_Students_Insurance.insurance_request_succeed" name="Insurance Request Succeed">
+        <t t-call="website.layout">
+            <div class="alert alert-info pb16" role="status">
+                <p class="mb-0">
+                    <strong>لقد تم تسجيل طلبك بنجاح!</strong>
+                    <a t-attf-href="/my">
+                        <span class="text-nowrap"><i class="fa fa-arrow-right mx-2"/>العودة إلى صفحة الحساب
+                        </span>
+                    </a>
+                    <br/>
+                </p>
+            </div>
+        </t>
+    </template>
+</odoo>

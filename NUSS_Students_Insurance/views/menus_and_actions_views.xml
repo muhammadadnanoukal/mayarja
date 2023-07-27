@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_insurance_request_template" model="ir.actions.act_window">
+        <field name="name">Insurance Request</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">insurance.request</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create Your First Insurance Request Here!
+            </p>
+        </field>
+    </record>
+
+    <record id="action_in_universities" model="ir.actions.act_window">
+        <field name="name">Universities &amp; Collages</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">in.university</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create Your First University Here!
+            </p>
+        </field>
+    </record>
+
+    <record id="action_in_messages" model="ir.actions.act_window">
+        <field name="name">Messages</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">in.messaging</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create Your First Message Here!
+            </p>
+        </field>
+    </record>
+
+    <record id="action_in_messaging_api" model="ir.actions.act_window">
+        <field name="name">Messaging APIs</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">in.messaging.api</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create Your First Messaging API Here!
+            </p>
+        </field>
+    </record>
+
+    <record id="action_expenses_management_company" model="ir.actions.act_window">
+        <field name="name">Expenses Management Company</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">expenses.management.company</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create Your First Expenses Management Company Here!
+            </p>
+        </field>
+    </record>
+
+    <record id="action_in_payment_methods" model="ir.actions.act_window">
+        <field name="name">Payment Methods</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">in.payment.method</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create Your First Payment Method Here!
+            </p>
+        </field>
+    </record>
+
+    <record id="action_insurance_type" model="ir.actions.act_window">
+        <field name="name">Insurance Types</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">insurance.type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create Your First Insurance Type Here!
+            </p>
+        </field>
+    </record>
+
+    <record id="action_in_payment_operations" model="ir.actions.act_window">
+        <field name="name">Payment Operations</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">in.payment.operation</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                There is no Payment Operations Till Now!
+            </p>
+        </field>
+    </record>
+
+    <record id="insurance_approvals_action" model="ir.actions.act_window">
+        <field name="name">Insurance Approvals</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">approval.request</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('approval_type', '=', 'insurance')]</field>
+    </record>
+
+    <menuitem id="insurance_module"
+              name="Student Insurance"
+              web_icon="NUSS_Students_Insurance,static/description/icon.png"
+              sequence="0">
+
+        <menuitem id="insurance_request_main_menu"
+                  name="Insurance Requests"
+                  sequence="10">
+
+            <menuitem id="insurance_request_menu"
+                      name="Insurance Requests"
+                      action="action_insurance_request_template"
+                      sequence="10"/>
+
+            <menuitem id="insurance_approvals_menu"
+                      action="insurance_approvals_action"
+                      name="Insurance Approvals"
+                      sequence="20"/>
+
+        </menuitem>
+
+        <menuitem id="universities_menu"
+                  name="Universities &amp; Collages"
+                  action="action_in_universities"
+                  sequence="20"/>
+
+        <menuitem id="insurance_manu"
+                  name="Insurance Information"
+                  sequence="30">
+
+            <menuitem id="insurance_types"
+                      action="action_insurance_type"
+                      name="Insurance Types"
+                      sequence="10"/>
+
+            <menuitem id="insurance_companies"
+                      name="Insurance Companies"
+                      sequence="20"/>
+
+            <menuitem id="expense_management_companies"
+                      action="action_expenses_management_company"
+                      name="Expenses Management Companies"
+                      sequence="30"/>
+
+        </menuitem>
+
+        <menuitem id="configuration_menu"
+                  name="Configuration"
+                  sequence="40">
+
+            <menuitem id="in_messages_menu"
+                      action="action_in_messages"
+                      name="Messaging" sequence="10"/>
+
+            <menuitem id="in_messaging_api_menu"
+                      action="action_in_messaging_api"
+                      name="Messaging APIs" sequence="20"/>
+
+            <menuitem id="in_payment_methods_menu"
+                      action="action_in_payment_methods"
+                      name="Payment Methods" sequence="30"/>
+
+            <menuitem id="in_payment_operations_menu"
+                      action="action_in_payment_operations"
+                      name="Payment Operations" sequence="40"/>
+
+        </menuitem>
+    </menuitem>
+</odoo>

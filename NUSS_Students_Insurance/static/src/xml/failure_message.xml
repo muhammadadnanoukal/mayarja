@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="NUSS_Student_Insurance.s_website_form_status_otp_failure">
+        <span id="s_website_form_result" class="text-danger ml8">
+            <i class="fa fa-close mr4" role="img" aria-label="Error" title="Error"/>
+            <t t-esc="message"/>
+        </span>
+    </t>
+</templates>

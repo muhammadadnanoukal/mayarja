@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="NUSS_Student_Insurance.s_website_form_status_otp_success">
+        <span id="s_website_form_result" class="text-success ml8">
+            <i class="fa fa-check mr4" role="img" aria-label="Success" title="Success"/>
+            <t t-esc="message"/>
+        </span>
+    </t>
+</templates>

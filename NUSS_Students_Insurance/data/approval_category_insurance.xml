@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="base.user_admin" model="res.users">
+            <field eval="[(4, ref('approvals.group_approval_manager'))]" name="groups_id"/>
+        </record>
+
+        <record id="approval_category_data_student_insurance" model="approval.category">
+            <field name="name">التأمين الصحي الطلابي</field>
+            <field name="description">الموافقات المتعلقة بالتأمين الصحي الطلابي</field>
+            <field name="image" type="base64" file="NUSS_Students_Insurance/static/description/icon.png"/>
+            <field name="sequence">1</field>
+            <field name="approval_type">insurance</field>
+            <field name="has_date">no</field>
+            <field name="has_period">no</field>
+            <field name="has_product">no</field>
+            <field name="has_quantity">no</field>
+            <field name="has_amount">no</field>
+            <field name="has_reference">no</field>
+            <field name="has_partner">no</field>
+            <field name="has_payment_method">no</field>
+            <field name="has_location">no</field>
+            <field name="has_insurance">required</field>
+            <field name="requirer_document">optional</field>
+            <field name="approval_minimum">1</field>
+            <field name="manager_approval">approver</field>
+            <field name="automated_sequence" eval="True"/>
+            <field name="sequence_code">INSAPR</field>
+        </record>
+    </data>
+</odoo>

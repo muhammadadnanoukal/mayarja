@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="student_insurance" name="Student Insurance" inherit_id="portal.user_dropdown">
+        <xpath expr="//li[1]" position="before">
+            <li class="nav-item dropdown o_no_autohide_item">
+                <a href="#" role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link">
+                    Student Insurance
+                </a>
+                <div class="dropdown-menu" role="menu">
+                    <a href="/insurance_request" role="menuitem" class="dropdown-item ps-3">
+                        Create Insurance Request
+                    </a>
+                    <div id="o_logout_divider" class="dropdown-divider"/>
+                    <a href="/expenses_management_companies" role="menuitem" class="dropdown-item ps-3">
+                        Expenses Management Companies
+                    </a>
+                    <div id="o_logout_divider" class="dropdown-divider"/>
+                    <a href="/insurance_types" role="menuitem" class="dropdown-item ps-3">
+                        Insurance Types
+                    </a>
+                    <div id="o_logout_divider" class="dropdown-divider"/>
+                    <a href="/payment_methods" role="menuitem" class="dropdown-item ps-3">
+                        Payment Methods
+                    </a>
+                </div>
+            </li>
+        </xpath>
+    </template>
+</odoo>

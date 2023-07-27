@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="insurance_request_approval_view_form_inherit" model="ir.ui.view">
+        <field name="name">insurance.request.approval.view.form.inherit</field>
+        <field name="model">approval.request</field>
+        <field name="inherit_id" ref="approvals.approval_request_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[2]" position="inside">
+                <field name="has_insurance" invisible="1"/>
+                <field name="insurance_request_id" attrs="{'invisible': [('has_insurance', '=', 'no')]}"/>
+                <field name="approval_message" attrs="{'invisible': [('has_insurance', '=', 'no')]}"/>
+                <field name="refusal_message" attrs="{'invisible': [('has_insurance', '=', 'no')]}"/>
+            </xpath>
+            <xpath expr="//button[1]" position="after">
+                <button name="action_approve_with_message" class="btn-primary" string="Approve &amp; Send SMS" type="object" attrs="{'invisible':['|', '|', ('request_status', 'in', ['approved', 'refused', 'cancel']), ('user_status','!=','pending'), ('approval_type', '!=', 'insurance')]}"/>
+                <button name="action_refuse_with_message" class="btn-primary" string="Refuse &amp; Send SMS" type="object" attrs="{'invisible':['|', '|', ('request_status', 'in', ['approved', 'refused', 'cancel']), ('user_status','!=','pending'), ('approval_type', '!=', 'insurance')]}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

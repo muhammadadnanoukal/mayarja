@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id='universities_view_form' model='ir.ui.view'>
+            <field name="name">in.university.view.form</field>
+            <field name="model">in.university</field>
+            <field name="arch" type="xml">
+                <form string="Universities">
+                    <sheet>
+                        <div class="oe_button_box" name="button_box">
+                            <button name="action_view_related" string="Collages" type="object"
+                                    attrs="{'invisible': ['|', ('related_to_self_count', '=', 0), ('type', '!=', 'university')]}" icon='fa-book'
+                                    class="oe_stat_button">
+                                <field name="related_to_self_count" nolabel="1" widget="statinfo"/>
+                                <span>Collages</span>
+                            </button>
+                            <button name="action_view_related" string="Departments" type="object"
+                                    attrs="{'invisible': ['|', '|', '|', ('related_to_self_count', '=', 0), ('type', '!=', 'collage'), ('type', '!=', 'high_inst'), ('type', '!=', 'tech_inst')]}" icon='fa-book'
+                                    class="oe_stat_button">
+                                <field name="related_to_self_count" nolabel="1" widget="statinfo"/>
+                                <span>Departments</span>
+                            </button>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="type" invisible="1"/>
+                                <field name="name"/>
+                                <field name="company_id" invisible="1"/>
+                                <field name="parent_id" invisible="1"/>
+                                <field name="parent_collage_id" attrs="{'invisible': ['|', ('type', '=', 'university'), ('type', '!=', 'department')], 'required': [('type', '=', 'department')]}"/>
+                                <field name="parent_university_id" attrs="{'invisible': ['|', ('type', '=', 'department'), ('type', '=', 'university')], 'required': ['|', '|', ('type', '=', 'collage'), ('type', '=', 'high_inst'), ('type', '=', 'tech_inst')]}"/>
+                                <field name="website" string="Website" widget="url" placeholder="e.g. https://www.example.com"/>
+                            </group>
+                            <group>
+                                <field name="type"/>
+                                <field name="phone" widget="phone"/>
+                                <field name="mobile" widget="phone"/>
+                                <field name="email" widget="email"/>
+                                <field name="emc_id" attrs="{'invisible': [('type', '!=', 'university')]}"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_in_universities_tree" model="ir.ui.view">
+            <field name="name">in.university.tree</field>
+            <field name="model">in.university</field>
+            <field name="arch" type="xml">
+                <tree string="Universities">
+                    <field name="name"/>
+                    <field name="complete_name"/>
+                    <field name="type"/>
+                    <field name="parent_id"/>
+                    <field name="email"/>
+                    <field name="phone"/>
+                    <field name="mobile"/>
+                    <field name="website"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

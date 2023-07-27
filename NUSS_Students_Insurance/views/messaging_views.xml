@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id='messaging_view_form' model='ir.ui.view'>
+            <field name="name">in.messaging.view.form</field>
+            <field name="model">in.messaging</field>
+            <field name="arch" type="xml">
+                <form string="Messages">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="type"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_in_messaging_tree" model="ir.ui.view">
+            <field name="name">in.messaging.tree</field>
+            <field name="model">in.messaging</field>
+            <field name="arch" type="xml">
+                <tree string="Messages">
+                    <field name="name"/>
+                    <field name="type"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id='messaging_api_view_form' model='ir.ui.view'>
+            <field name="name">in.messaging.api.view.form</field>
+            <field name="model">in.messaging.api</field>
+            <field name="arch" type="xml">
+                <form string="Messaging API">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="username"/>
+                                <field name="password" password="True"/>
+                                <field name="sender"/>
+                                <field name="active_account" widget="boolean_toggle"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_in_messaging_api_tree" model="ir.ui.view">
+            <field name="name">in.messaging.api.tree</field>
+            <field name="model">in.messaging.api</field>
+            <field name="arch" type="xml">
+                <tree string="Messaging API">
+                    <field name="username"/>
+                    <field name="sender"/>
+                    <field name="active_account" widget="boolean_toggle" readonly="1"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

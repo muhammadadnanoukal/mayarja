@@ -1,0 +1,2241 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* NUSS_Students_Insurance
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0+e-20221225\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-15 14:16+0000\n"
+"PO-Revision-Date: 2023-03-15 16:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar_SY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "0911111111"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.expenses_management_companies
+msgid ""
+"<i class=\"fa fa-download\"/>\n"
+"                                                        Download file"
+msgstr "<i class=\"fa fa-download\"/>تحميل الملف"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid ""
+"<i class=\"fa fa-fw fa-arrow-right mx-1\" aria-label=\"My Card\" title=\"My "
+"Card\" role=\"img\"/>\n"
+"                                        Show my card"
+msgstr ""
+"<i class=\"fa fa-fw fa-arrow-right mx-1\" aria-label=\"البطاقة التأمينية\" "
+"title=\"البطاقة التأمينية\" role=\"img\"/>\n"
+"                                        استعراض البطاقة"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid ""
+"<i class=\"fa fa-fw fa-arrow-right mx-1\" aria-label=\"Payment Link\" "
+"title=\"Payment Link\" role=\"img\"/>\n"
+"                                        Go to payment form"
+msgstr ""
+"<i class=\"fa fa-fw fa-arrow-right mx-1\" aria-label=\"رابط الدفع\" "
+"title=\"رابط الدفع\" role=\"img\"/>\n"
+"                                        إذهب إلى صفحة الدفع"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.expenses_management_companies
+msgid ""
+"<i class=\"fa fa-link\"/>\n"
+"                                                        Go to website"
+msgstr "<i class=\"fa fa-link\"/>اذهب إلى الموقع"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid ""
+"<span class=\"badge rounded-pill text-bg-danger\">\n"
+"                                        <i class=\"fa fa-fw fa-remove\" aria-"
+"label=\"Expired\" title=\"Expired\" role=\"img\"/>\n"
+"                                        <span class=\"d-none d-md-"
+"inline\">Expired</span>\n"
+"                                    </span>"
+msgstr ""
+"<span class=\"badge rounded-pill text-bg-danger\">\n"
+"                                        <i class=\"fa fa-fw fa-remove\" aria-"
+"label=\"Expired\" title=\"Expired\" role=\"img\"/>\n"
+"                                        <span class=\"d-none d-md-"
+"inline\">منتهي الصلاحية</span>\n"
+"                                    </span>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid ""
+"<span class=\"badge rounded-pill text-bg-danger\">\n"
+"                                        <i class=\"fa fa-fw fa-remove\" aria-"
+"label=\"Refused\" title=\"Refused\" role=\"img\"/>\n"
+"                                        <span class=\"d-none d-md-"
+"inline\">Refused</span>\n"
+"                                    </span>"
+msgstr ""
+"<span class=\"badge rounded-pill text-bg-danger\">\n"
+"                                        <i class=\"fa fa-fw fa-remove\" aria-"
+"label=\"Refused\" title=\"Refused\" role=\"img\"/>\n"
+"                                        <span class=\"d-none d-md-"
+"inline\">مرفوض</span>\n"
+"                                    </span>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid ""
+"<span class=\"badge rounded-pill text-bg-info\">\n"
+"                                        <i class=\"fa fa-fw fa-check\" aria-"
+"label=\"Approved\" title=\"Approved\" role=\"img\"/>\n"
+"                                        <span class=\"d-none d-md-"
+"inline\">Approved</span>\n"
+"                                    </span>"
+msgstr ""
+"<span class=\"badge rounded-pill text-bg-info\">\n"
+"                                        <i class=\"fa fa-fw fa-check\" aria-"
+"label=\"Approved\" title=\"Approved\" role=\"img\"/>\n"
+"                                        <span class=\"d-none d-md-"
+"inline\">مقبول</span>\n"
+"                                    </span>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid ""
+"<span class=\"badge rounded-pill text-bg-success\">\n"
+"                                        <i class=\"fa fa-fw fa-check\" aria-"
+"label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
+"                                        <span class=\"d-none d-md-"
+"inline\">Paid</span>\n"
+"                                    </span>"
+msgstr ""
+"<span class=\"badge rounded-pill text-bg-success\">\n"
+"                                        <i class=\"fa fa-fw fa-check\" aria-"
+"label=\"Paid\" title=\"Paid\" role=\"img\"/>\n"
+"                                        <span class=\"d-none d-md-inline\">تم "
+"الدفع</span>\n"
+"                                    </span>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid ""
+"<span class=\"badge rounded-pill text-bg-warning\">\n"
+"                                        <i class=\"fa fa-fw fa-clock-o\" aria-"
+"label=\"Waiting\" title=\"Waiting\" role=\"img\"/>\n"
+"                                        <span class=\"d-none d-md-"
+"inline\">Waiting</span>\n"
+"                                    </span>"
+msgstr ""
+"<span class=\"badge rounded-pill text-bg-warning\">\n"
+"                                        <i class=\"fa fa-fw fa-clock-o\" aria-"
+"label=\"Waiting\" title=\"Waiting\" role=\"img\"/>\n"
+"                                        <span class=\"d-none d-md-inline\">قيد "
+"المعالجة</span>\n"
+"                                    </span>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">اسم الأب</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">اسم الأم</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">الاسم الأخير</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">الاسم الأول</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">البطاقة الجامعية</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">الجامعة</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">الجنس</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">الحالة الإجتماعية</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">الرقم الجامعي</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">الرقم الوطني</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">السنة</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">الكلية</span>"
+msgstr "<span class=\"s_website_form_label_content\">الكلية أو المعهد</span>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">الوجه الأمامي للهوية</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">الوجه الخلفي للهوية</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">تاريخ الميلاد</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_payment_operation
+msgid "<span class=\"s_website_form_label_content\">رقم الهاتف</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_payment_operation
+msgid "<span class=\"s_website_form_label_content\">رقم طلب التأمين</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_payment_otp_operation
+msgid "<span class=\"s_website_form_label_content\">رمز التأكيد</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">مكان الإقامة</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "<span class=\"s_website_form_label_content\">نوع التأمين</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid "<span style=\"color:#6E1420\">Link is not available</span>"
+msgstr "<span style=\"color:#6E1420\">الرابط غير متوفر</span>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.payment_methods
+msgid "<span style=\"color:#6E1420\">Online payment link is not available</span>"
+msgstr "<span style=\"color:#6E1420\">رابط الدفع الإلكتروني غير متوفر</span>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_type_view_form
+msgid "<span>(ل.س)</span>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_request_view_form
+msgid "<span>Approval Requests</span>"
+msgstr "<span>طلبات الموافقة</span>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.universities_view_form
+msgid "<span>Collages</span>"
+msgstr "<span>الكليات أو المعاهد</span>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.universities_view_form
+msgid "<span>Departments</span>"
+msgstr "الأقسام"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.payment_methods
+msgid "<span>Go to payment form</span>"
+msgstr "الذهاب إلى صفحة الدفع"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid "<span>Not available</span>"
+msgstr "<span>غير متوفر</span>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_request_view_form
+msgid "<span>Payment Operation</span>"
+msgstr "عملية دفع"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_type_template
+msgid ""
+"<strong>\n"
+"                                <span class=\"o_animated_text o_animate "
+"o_anim_zoom_out o_visible\" style=\"animation-delay: 0.1s !important; color: "
+"white;\">أنواع التأمين\n"
+"                                </span>\n"
+"                            </strong>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid ""
+"<strong>\n"
+"                                <span class=\"o_animated_text o_animate "
+"o_anim_zoom_out o_visible\" style=\"animation-delay: 0.1s !important; color: "
+"white;\">إنشاء طلب تأمين\n"
+"                                </span>\n"
+"                            </strong>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_card
+msgid ""
+"<strong>\n"
+"                                <span class=\"o_animated_text o_animate "
+"o_anim_zoom_out o_visible\" style=\"animation-delay: 0.1s !important; color: "
+"white;\">بطاقتك التأمينية\n"
+"                                </span>\n"
+"                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                <span class=\"o_animated_text o_animate "
+"o_anim_zoom_out o_visible\" style=\"animation-delay: 0.1s !important;\">بطاقتك "
+"التأمينية\n"
+"                                </span>\n"
+"                            </strong>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.expenses_management_companies
+msgid ""
+"<strong>\n"
+"                                <span class=\"o_animated_text o_animate "
+"o_anim_zoom_out o_visible\" style=\"animation-delay: 0.1s !important; color: "
+"white;\">شركات إدارة النفقات\n"
+"                                </span>\n"
+"                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                <span class=\"o_animated_text o_animate "
+"o_anim_zoom_out o_visible\" style=\"animation-delay: 0.1s !important;\">شركات "
+"إدارة النفقات\n"
+"                                </span>\n"
+"                            </strong>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_payment_operation
+msgid ""
+"<strong>\n"
+"                                <span class=\"o_animated_text o_animate "
+"o_anim_zoom_out o_visible\" style=\"animation-delay: 0.1s !important; color: "
+"white;\">عملية الدفع\n"
+"                                </span>\n"
+"                            </strong>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.payment_methods
+msgid ""
+"<strong>\n"
+"                                <span class=\"o_animated_text o_animate "
+"o_anim_zoom_out o_visible\" style=\"animation-delay: 0.1s !important; color: "
+"white;\">وسائل الدفع\n"
+"                                </span>\n"
+"                            </strong>"
+msgstr ""
+"<strong>\n"
+"                                <span class=\"o_animated_text o_animate "
+"o_anim_zoom_out o_visible\" style=\"animation-delay: 0.1s !important;\">وسائل "
+"الدفع\n"
+"                                </span>\n"
+"                            </strong>"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_payment_otp_operation
+msgid ""
+"<strong>\n"
+"                                <span class=\"o_animated_text o_animate "
+"o_anim_zoom_out o_visible\" style=\"animation-delay: 0.1s !important;\">عملية "
+"الدفع\n"
+"                                </span>\n"
+"                            </strong>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_card
+msgid "<strong>البطاقة غير متوافرة حالياً!</strong>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.no_records
+msgid ""
+"<strong>السجلات غير متوافرة حالياً!</strong>\n"
+"                <br/>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.expenses_management_companies
+msgid ""
+"<strong>في حال وجود أي استفسار الرجاء التواصل مع فريق شركة وساطة على إحدى "
+"الأرقام</strong>\n"
+"                            <br/>\n"
+"                            <strong>0113322528 - 0987772590</strong>"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "Access Denied!"
+msgstr "الوصول مرفوض!"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__access_warning
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__access_warning
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__access_warning
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__access_warning
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__access_warning
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__access_warning
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__access_warning
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__access_warning
+msgid "Access warning"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__account_number
+msgid "Account Number"
+msgstr "رقم الحساب"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__message_needaction
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__message_needaction
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__message_needaction
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__message_needaction
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__message_needaction
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__message_needaction
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__message_needaction
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__message_needaction
+msgid "Action Needed"
+msgstr "الفعل المطلوب"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__active_account
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__active_account
+msgid "Active Account"
+msgstr "الحساب فعال"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__activity_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__activity_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__activity_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__activity_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__activity_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__activity_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__activity_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__activity_ids
+msgid "Activities"
+msgstr "الأنشطة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__activity_exception_decoration
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__activity_exception_decoration
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__activity_exception_decoration
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__activity_exception_decoration
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__activity_exception_decoration
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__activity_exception_decoration
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__activity_exception_decoration
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__activity_state
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__activity_state
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__activity_state
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__activity_state
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__activity_state
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__activity_state
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__activity_state
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__activity_type_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__activity_type_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__activity_type_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__activity_type_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__activity_type_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__activity_type_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__activity_type_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/portal_my_requests.py:0
+#, python-format
+msgid "All"
+msgstr "الكل"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_approval_category__approval_type
+msgid ""
+"Allows you to define which documents you would like to create once the request "
+"has been approved"
+msgstr ""
+"يتيح لك تحديد أي المستندات ترغب في إنشائها بمجرد أن تتم الموافقة على الطلب "
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__amount
+msgid "Amount"
+msgstr "المبلغ الإجمالي"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "An Error has happened in your payment request!"
+msgstr "لقد حدث خطأ في عملية الدفع!"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/models/approval_request.py:0
+#, python-format
+msgid ""
+"An error happened when sending the message!\n"
+"Either there is a connection error or the request owner number is incorrect."
+msgstr ""
+"حدث خطأ في إرسال الرسالة إلى صاحب الطلب!\n"
+"مشكلة في الإتصال أو الرقم غير صالح، يرجى التأكد من صحة الرقم."
+
+#. module: NUSS_Students_Insurance
+#. odoo-javascript
+#: code:addons/NUSS_Students_Insurance/static/src/js/insurance_request_form.js:0
+#, python-format
+msgid "An error has occured, the form has not been sent."
+msgstr "حدث خطأ ما، لم يتم إرسال الطلب."
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model,name:NUSS_Students_Insurance.model_approval_category
+msgid "Approval Category"
+msgstr "فئة الموافقة "
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_approval_request__approval_message
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_messaging__type__approved
+msgid "Approval Message"
+msgstr "رسالة الموافقة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model,name:NUSS_Students_Insurance.model_approval_request
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_request_view_form
+msgid "Approval Request"
+msgstr "طلب موافقة "
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_approval_category__approval_type
+msgid "Approval Type"
+msgstr "نوع الموافقة"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_request_approval_view_form_inherit
+msgid "Approve & Send SMS"
+msgstr "موافقة وإرسال رسالة"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/portal_my_requests.py:0
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__state__approved
+#, python-format
+msgid "Approved"
+msgstr "مقبول"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__message_attachment_count
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__message_attachment_count
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__message_attachment_count
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__message_attachment_count
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__message_attachment_count
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__message_attachment_count
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__message_attachment_count
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__message_attachment_count
+msgid "Attachment Count"
+msgstr "عدد المرفقات"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_payment_method__type__bank
+msgid "Bank"
+msgstr "بنك"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/payment_methods.py:0
+#, python-format
+msgid "Bank/Company"
+msgstr "شركة الدفع"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_card
+msgid "Birthday:"
+msgstr "تاريخ الميلاد:"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "Can't Make Request"
+msgstr "لا يمكنك إنشاء طلبات"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__ms_type
+msgid "Choose One"
+msgstr "اختر واحد "
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_university__type__collage
+msgid "Collage"
+msgstr "كلية أو معهد"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__parent_collage_id
+msgid "Collage/Institute Related To"
+msgstr "الكلية/المعهد تابع(ة) لجامعة"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.universities_view_form
+msgid "Collages"
+msgstr "الكليات أو المعاهد"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/expenses_management_company.py:0
+#, python-format
+msgid "Communication Numbers"
+msgstr "أرقام التواصل"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/expenses_management_company.py:0
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__company_id
+#, python-format
+msgid "Company"
+msgstr "الشركات"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__name
+msgid "Company Name"
+msgstr "اسم الشركة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__complete_name
+msgid "Complete Name"
+msgstr "الاسم الكامل"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.configuration_menu
+msgid "Configuration"
+msgstr "الإعدادات"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model,name:NUSS_Students_Insurance.model_res_partner
+msgid "Contact"
+msgstr "جهة الاتصال"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_types.py:0
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__coverages
+#, python-format
+msgid "Coverages"
+msgstr "التغطيات"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.actions.act_window,help:NUSS_Students_Insurance.action_expenses_management_company
+msgid "Create Your First Expenses Management Company Here!"
+msgstr "أنشئ أول شركة إدارة نفقات هنا !"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.actions.act_window,help:NUSS_Students_Insurance.action_insurance_request_template
+msgid "Create Your First Insurance Request Here!"
+msgstr "أنشئ أول طلب تأمين هنا !"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.actions.act_window,help:NUSS_Students_Insurance.action_insurance_type
+msgid "Create Your First Insurance Type Here!"
+msgstr "أنشئ أول نوع تأمين هنا !"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.actions.act_window,help:NUSS_Students_Insurance.action_in_messages
+msgid "Create Your First Message Here!"
+msgstr "أنشئ أول رسالة هنا !"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.actions.act_window,help:NUSS_Students_Insurance.action_in_messaging_api
+msgid "Create Your First Messaging API Here!"
+msgstr "أنشئ أول API مراسلة هنا !"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.actions.act_window,help:NUSS_Students_Insurance.action_in_payment_methods
+msgid "Create Your First Payment Method Here!"
+msgstr "أنشئ أول طريقة دفع هنا !"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.actions.act_window,help:NUSS_Students_Insurance.action_in_universities
+msgid "Create Your First University Here!"
+msgstr "أنشئ أول جامعة هنا !"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__create_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__create_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__create_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__create_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__create_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__create_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__create_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__create_uid
+msgid "Created by"
+msgstr "أنشئ بواسطة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__create_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__create_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__create_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__create_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__create_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__create_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__create_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__create_date
+msgid "Created on"
+msgstr "أنشئ على"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__customer_MSISDN
+msgid "Customer MSISDN"
+msgstr "رقم العميل"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_expenses_management_company__access_url
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging__access_url
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging_api__access_url
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_method__access_url
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_operation__access_url
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_university__access_url
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_request__access_url
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_type__access_url
+msgid "Customer Portal URL"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/portal_my_requests.py:0
+#, python-format
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_university__type__department
+msgid "Department"
+msgstr "القسم"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.universities_view_form
+msgid "Departments"
+msgstr "الأقسام"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__display_name
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__display_name
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__display_name
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__display_name
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__display_name
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__display_name
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__display_name
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__e_payment_link
+msgid "Electronic Payment Link"
+msgstr "رابط الدفع الإلكتروني"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__email
+msgid "Email"
+msgstr "الإيميل"
+
+#. module: NUSS_Students_Insurance
+#. odoo-javascript
+#: code:addons/NUSS_Students_Insurance/static/src/xml/failure_message.xml:0
+#, python-format
+msgid "Error"
+msgstr "خطأ!"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.expense_management_companies
+msgid "Expenses Management Companies"
+msgstr "شركات إدارة النفقات"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.actions.act_window,name:NUSS_Students_Insurance.action_expenses_management_company
+#: model:ir.model,name:NUSS_Students_Insurance.model_expenses_management_company
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__emc_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__expenses_company_id
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.expenses_management_company_view_form
+msgid "Expenses Management Company"
+msgstr "شركة إدارة النفقات"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_card
+msgid "Expenses Management Company:"
+msgstr "شركة إدارة النفقات:"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/portal_my_requests.py:0
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+#, python-format
+msgid "Expiration Date"
+msgstr "تاريخ إنتهاء الصلاحية"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/portal_my_requests.py:0
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__state__expired
+#, python-format
+msgid "Expired"
+msgstr "منتهي الصلاحية"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/expenses_management_company.py:0
+#, python-format
+msgid "File Not Found"
+msgstr "الملف غير متوفر"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__financial_limit
+msgid "Financial Limit"
+msgstr "الحد المالي"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_types.py:0
+#, python-format
+msgid "Financial Limits"
+msgstr "الحد المالي"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__message_follower_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__message_follower_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__message_follower_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__message_follower_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__message_follower_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__message_follower_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__message_follower_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__message_follower_ids
+msgid "Followers"
+msgstr "المتابعين"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__message_partner_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__message_partner_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__message_partner_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__message_partner_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__message_partner_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__message_partner_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__message_partner_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "المتابعين"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_expenses_management_company__activity_type_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging__activity_type_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging_api__activity_type_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_method__activity_type_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_operation__activity_type_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_university__activity_type_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_request__activity_type_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_type__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "Go back to my account"
+msgstr "العودة إلى صفحة الحساب"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "Go back to my requests"
+msgstr "العودة إلى صفحة طلباتي التأمينية"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/expenses_management_company.py:0
+#, python-format
+msgid "Go to the previous page"
+msgstr "العودة إلى الصفحة السابقة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_approval_category__has_insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_approval_request__has_insurance
+msgid "Has Insurance"
+msgstr "لديه طلب تأمين "
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__has_message
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__has_message
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__has_message
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__has_message
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__has_message
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__has_message
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__has_message
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__has_message
+msgid "Has Message"
+msgstr "لديه رسالة"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_insurance_message
+msgid "Here is your insurance request code:"
+msgstr "هذا هو الرمز الخاص بطلبك التأميني:"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_university__type__high_inst
+msgid "Higher Institute"
+msgstr "المعهد العالي"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__id
+msgid "ID"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__activity_exception_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__activity_exception_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__activity_exception_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__activity_exception_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__activity_exception_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__activity_exception_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__activity_exception_icon
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_expenses_management_company__activity_exception_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging__activity_exception_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging_api__activity_exception_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_method__activity_exception_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_operation__activity_exception_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_university__activity_exception_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_request__activity_exception_icon
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_type__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_expenses_management_company__message_needaction
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging__message_needaction
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging_api__message_needaction
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_method__message_needaction
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_operation__message_needaction
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_university__message_needaction
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_request__message_needaction
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_type__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_expenses_management_company__message_has_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_expenses_management_company__message_has_sms_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging__message_has_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging__message_has_sms_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging_api__message_has_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging_api__message_has_sms_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_method__message_has_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_method__message_has_sms_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_operation__message_has_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_operation__message_has_sms_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_university__message_has_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_university__message_has_sms_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_request__message_has_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_request__message_has_sms_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_type__message_has_error
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_type__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__image_256
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_request_approval_category_view_form_inherit
+msgid "Insurance"
+msgstr "التأمين"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.actions.act_window,name:NUSS_Students_Insurance.insurance_approvals_action
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.insurance_approvals_menu
+msgid "Insurance Approvals"
+msgstr "طلبات الموافقات التأمينية"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_request_view_form
+msgid "Insurance Card Info"
+msgstr "معلومات بطاقة التأمين"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.insurance_companies
+msgid "Insurance Companies"
+msgstr "شركات التأمين"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__insurance_expiration_date
+msgid "Insurance Expiration Date"
+msgstr "تاريخ انتهاء صلاحية التأمين"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_card
+msgid "Insurance Expiration Date:"
+msgstr "تاريخ انتهاء صلاحية التأمين:"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_types.py:0
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__insurance_fees
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_type_view_form
+#, python-format
+msgid "Insurance Fees"
+msgstr "مصاريف التأمين"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.insurance_manu
+msgid "Insurance Information"
+msgstr "معلومات التأمين"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__insurance_number
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid "Insurance Number"
+msgstr "الرقم التأميني"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_card
+msgid "Insurance Number:"
+msgstr "الرقم التأميني:"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.actions.act_window,name:NUSS_Students_Insurance.action_insurance_request_template
+#: model:ir.model,name:NUSS_Students_Insurance.model_insurance_request
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_request_view_form
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_request_view_tree
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_type_view_tree
+msgid "Insurance Request"
+msgstr "طلب التأمين"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid "Insurance Request Number"
+msgstr "رقم الطلب"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.insurance_request_main_menu
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.insurance_request_menu
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid "Insurance Requests"
+msgstr "طلبات التأمين"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_types.py:0
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__insurance_type
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_type_view_form
+#, python-format
+msgid "Insurance Type"
+msgstr "نوع التأمين"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_card
+msgid "Insurance Type:"
+msgstr "نوع التأمين:"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.actions.act_window,name:NUSS_Students_Insurance.action_insurance_type
+#: model:ir.model,name:NUSS_Students_Insurance.model_insurance_type
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.insurance_types
+msgid "Insurance Types"
+msgstr "أنواع التأمين"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__is_expired
+msgid "Is Expired"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__message_is_follower
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__message_is_follower
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__message_is_follower
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__message_is_follower
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__message_is_follower
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__message_is_follower
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__message_is_follower
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__message_is_follower
+msgid "Is Follower"
+msgstr "هو متابع"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company____last_update
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging____last_update
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api____last_update
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method____last_update
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation____last_update
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university____last_update
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request____last_update
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__write_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__write_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__write_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__write_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__write_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__write_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__write_uid
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__write_uid
+msgid "Last Updated by"
+msgstr "آخر تحديث من قبل"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__write_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__write_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__write_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__write_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__write_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__write_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__write_date
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__write_date
+msgid "Last Updated on"
+msgstr "آخر تحديث في"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/payment_methods.py:0
+#, python-format
+msgid "Link"
+msgstr "الرابط"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_payment_method__ms_type__mtn
+msgid "MTN"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_payment_method__type__mtn_syriatel
+msgid "MTN / Syriatel Cash"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__message_main_attachment_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__message_main_attachment_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__message_main_attachment_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__message_main_attachment_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__message_main_attachment_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__message_main_attachment_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__message_main_attachment_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "المرفق أو الملف الرئيسي"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/expenses_management_company.py:0
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__medical_network_file
+#, python-format
+msgid "Medical Network File"
+msgstr "ملف الشبكة الطبية"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__medical_network_filename
+msgid "Medical Network Filename"
+msgstr "اسم ملف الشبكة الطبية"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/expenses_management_company.py:0
+#, python-format
+msgid "Medical Network Website"
+msgstr "موقع الشبكة الطبية"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.in_payment_method_view_form
+msgid "Merchant Account"
+msgstr "حساب التاجر"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__merchant_MSISDN
+msgid "Merchant MSISDN"
+msgstr "رقم التاجر"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__message_has_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__message_has_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__message_has_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__message_has_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__message_has_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__message_has_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__message_has_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__message_has_error
+msgid "Message Delivery error"
+msgstr "خطأ في عملية تحويل الرسالة!"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.actions.act_window,name:NUSS_Students_Insurance.action_in_messages
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__message_ids
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.messaging_view_form
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.view_in_messaging_tree
+msgid "Messages"
+msgstr "الرسائل"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model,name:NUSS_Students_Insurance.model_in_messaging
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.in_messages_menu
+msgid "Messaging"
+msgstr "المراسلة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model,name:NUSS_Students_Insurance.model_in_messaging_api
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.messaging_api_view_form
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.view_in_messaging_api_tree
+msgid "Messaging API"
+msgstr "API المراسلة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.actions.act_window,name:NUSS_Students_Insurance.action_in_messaging_api
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.in_messaging_api_menu
+msgid "Messaging APIs"
+msgstr "APIs المراسلة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__mobile
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__mobile
+msgid "Mobile Number"
+msgstr "رقم الموبايل"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__mobile_phone
+msgid "Mobile Phone"
+msgstr "رقم الهاتف"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__my_activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__my_activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__my_activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__my_activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__my_activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__my_activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__my_activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "الموعد النهائي لنشاطي"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid "My Card"
+msgstr "البطاقة التأمينية"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_res_partner__insurance_requests_count
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_res_users__insurance_requests_count
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_home_insurance_requests
+msgid "My Insurance Requests"
+msgstr "طلباتي التأمينية"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__name
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__name
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__name
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__name
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/models/insurance_request.py:0
+#, python-format
+msgid "New"
+msgstr "جديد"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__activity_calendar_event_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__activity_calendar_event_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__activity_calendar_event_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__activity_calendar_event_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__activity_calendar_event_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__activity_calendar_event_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__activity_calendar_event_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr "النشاط التالي ضمن التقويم"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__activity_date_deadline
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "موعد التسليم للنشاط التالي"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__activity_summary
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__activity_summary
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__activity_summary
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__activity_summary
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__activity_summary
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__activity_summary
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__activity_summary
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__activity_summary
+msgid "Next Activity Summary"
+msgstr "ملخص النشاط التالي"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__activity_type_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__activity_type_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__activity_type_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__activity_type_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__activity_type_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__activity_type_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__activity_type_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__activity_type_id
+msgid "Next Activity Type"
+msgstr "نوع النشاط التالي"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__approval_category__has_insurance__no
+msgid "None"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__approver_notes
+msgid "Notes"
+msgstr "الملاحظات"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__message_needaction_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__message_needaction_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__message_needaction_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__message_needaction_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__message_needaction_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__message_needaction_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__message_needaction_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__message_needaction_counter
+msgid "Number of Actions"
+msgstr "عدد النشاطات"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__message_has_error_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__message_has_error_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__message_has_error_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__message_has_error_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__message_has_error_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__message_has_error_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__message_has_error_counter
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__message_has_error_counter
+msgid "Number of errors"
+msgstr "عدد الأخطاء"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_expenses_management_company__message_needaction_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging__message_needaction_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging_api__message_needaction_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_method__message_needaction_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_operation__message_needaction_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_university__message_needaction_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_request__message_needaction_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_type__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "عدد الرسائل التي تتطلب حدث"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_expenses_management_company__message_has_error_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging__message_has_error_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging_api__message_has_error_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_method__message_has_error_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_operation__message_has_error_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_university__message_has_error_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_request__message_has_error_counter
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_type__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "عدد الرسائل بأخطاء التوصيل"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "One Waiting Request"
+msgstr "طلبك قيد المعالجة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__approval_category__has_insurance__optional
+msgid "Optional"
+msgstr "اختياري"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/portal_my_requests.py:0
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_payment_operation__state__paid
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__state__paid
+#, python-format
+msgid "Paid"
+msgstr "تم الدفع"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "Paid Successfully!"
+msgstr "تم الدفع بنجاح!"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__parent_id
+msgid "Parent"
+msgstr "الأب"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__password
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__merchant_password
+msgid "Password"
+msgstr "كلمة المرور"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid "Payment Link"
+msgstr "رابط الدفع"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__payment_method_id
+msgid "Payment Method"
+msgstr "وسيلة الدفع"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.actions.act_window,name:NUSS_Students_Insurance.action_in_payment_methods
+#: model:ir.model,name:NUSS_Students_Insurance.model_in_payment_method
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.in_payment_methods_menu
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.expenses_management_company_view_tree
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.in_payment_method_view_form
+msgid "Payment Methods"
+msgstr "وسائل الدفع"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__payment_operation_id
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.in_payment_operation_view_form
+msgid "Payment Operation"
+msgstr "عملية الدفع"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.actions.act_window,name:NUSS_Students_Insurance.action_in_payment_operations
+#: model:ir.model,name:NUSS_Students_Insurance.model_in_payment_operation
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.in_payment_operations_menu
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.payment_operations_view_tree
+msgid "Payment Operations"
+msgstr "عمليات الدفع"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "Payment Required"
+msgstr "الدفع مطلوب"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__type
+msgid "Payment Type"
+msgstr "نوع الدفع"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_payment_operation__state__pending
+msgid "Pending"
+msgstr "معلّق"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__phone
+msgid "Phone"
+msgstr "الهاتف"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__phone
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+#. module: NUSS_Students_Insurance
+#. odoo-javascript
+#: code:addons/NUSS_Students_Insurance/static/src/js/insurance_request_form.js:0
+#, python-format
+msgid "Please fill in the form correctly."
+msgstr "يرجى إعادة تعبئة المعلومات بشكل صحيح."
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__access_url
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__access_url
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__access_url
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__access_url
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__access_url
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__access_url
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__access_url
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__access_url
+msgid "Portal Access URL"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__quadruple_phone
+msgid "Quadruple Phone"
+msgstr "الرقم الرباعي"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_card
+msgid "Red dot"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/portal_my_requests.py:0
+#, python-format
+msgid "Reference"
+msgstr "المرجع"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_approval_request__refusal_message
+msgid "Refusal Message"
+msgstr "رسالة الرفض"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_request_approval_view_form_inherit
+msgid "Refuse & Send SMS"
+msgstr "رفض وإرسال رسالة"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/portal_my_requests.py:0
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__state__refused
+#, python-format
+msgid "Refused"
+msgstr "مرفوض"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_messaging__type__rejected
+msgid "Rejection Message"
+msgstr "رسالة الرفض"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__related_to_self_count
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__related_to_self_count
+msgid "Related To Self Count"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__approval_category__has_insurance__required
+msgid "Required"
+msgstr "مطلوب"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__activity_user_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__activity_user_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__activity_user_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__activity_user_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__activity_user_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__activity_user_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__activity_user_id
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__activity_user_id
+msgid "Responsible User"
+msgstr "المستخدم المسؤول"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__message_has_sms_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__message_has_sms_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__message_has_sms_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__message_has_sms_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__message_has_sms_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__message_has_sms_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__message_has_sms_error
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "خطأ في تسليم الرسائل القصيرة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__access_token
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__access_token
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__access_token
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__access_token
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__access_token
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__access_token
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__access_token
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__access_token
+msgid "Security Token"
+msgstr "الرمز الخاص"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__sender
+msgid "Sender"
+msgstr "المرسل"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "Something wrong has happened!"
+msgstr "حدث خطأ ما!"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/expenses_management_company.py:0
+#, python-format
+msgid "Sorry... The medical network file is not available at the current time."
+msgstr "عذراً، إن ملف الشبكة الطبية غير متاح في هذه اللحظة!"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__state
+msgid "State"
+msgstr "الحالة"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/portal_my_requests.py:0
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__state
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+#, python-format
+msgid "Status"
+msgstr "الحالة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_expenses_management_company__activity_state
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging__activity_state
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging_api__activity_state
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_method__activity_state
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_operation__activity_state
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_university__activity_state
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_request__activity_state
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_type__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.insurance_request_view_form
+msgid "Student Files"
+msgstr "ملفات الطالب"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_approval_request__insurance_request_id
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.insurance_module
+msgid "Student Insurance"
+msgstr "التأمين الطلابي"
+
+#. module: NUSS_Students_Insurance
+#. odoo-javascript
+#: code:addons/NUSS_Students_Insurance/static/src/xml/success_message.xml:0
+#, python-format
+msgid "Success"
+msgstr "نجاح!"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_payment_method__ms_type__syriatel
+msgid "Syriatel"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_university__type__tech_inst
+msgid "Technical Institute"
+msgstr "المعهد التقاني"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "The insurance request does not exist"
+msgstr "الطلب التأميني غير موجود"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_my_insurance_requests
+msgid "There are currently no insurance requests for your account."
+msgstr "لا يوجد طلبات تأمين مطابقة لعملية البحث هذه!"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.actions.act_window,help:NUSS_Students_Insurance.action_in_payment_operations
+msgid "There is no Payment Operations Till Now!"
+msgstr "لايوجد عمليات دفع حتى الآن!"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/models/approval_request.py:0
+#, python-format
+msgid "There is no active messaging api account"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__token
+msgid "Token"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__transaction_id
+msgid "Transaction ID"
+msgstr "المعرف العملية الخاص"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__transaction_time
+msgid "Transaction Time"
+msgstr "تاريخ العملية"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "Two Waiting Request"
+msgstr "طلبين قيد المعالجة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__type
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__type
+msgid "Type"
+msgstr "النوع"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_expenses_management_company__activity_exception_decoration
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging__activity_exception_decoration
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging_api__activity_exception_decoration
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_method__activity_exception_decoration
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_operation__activity_exception_decoration
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_university__activity_exception_decoration
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_request__activity_exception_decoration
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_type__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__university_ids
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.universities_view_form
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.view_in_universities_tree
+msgid "Universities"
+msgstr "الجامعات"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.actions.act_window,name:NUSS_Students_Insurance.action_in_universities
+#: model:ir.ui.menu,name:NUSS_Students_Insurance.universities_menu
+msgid "Universities & Collages"
+msgstr "الجامعات و الكليات"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model,name:NUSS_Students_Insurance.model_in_university
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__in_university__type__university
+msgid "University"
+msgstr "الجامعة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__parent_university_id
+msgid "University Related To"
+msgstr "تابعية الجامعة"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__username
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__merchant_username
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/portal_my_requests.py:0
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__state__waiting
+#, python-format
+msgid "Waiting"
+msgstr "قيد الانتظار"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__website
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.expenses_management_company_view_form
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.universities_view_form
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__website
+msgid "Website Link"
+msgstr "رابط الموقع الإلكتروني"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_expenses_management_company__website_message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging__website_message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_messaging_api__website_message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_method__website_message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_payment_operation__website_message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_in_university__website_message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__website_message_ids
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_type__website_message_ids
+msgid "Website Messages"
+msgstr "رسائل الموقع الإلكتروني"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_expenses_management_company__website_message_ids
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging__website_message_ids
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_messaging_api__website_message_ids
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_method__website_message_ids
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_payment_operation__website_message_ids
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_in_university__website_message_ids
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_request__website_message_ids
+#: model:ir.model.fields,help:NUSS_Students_Insurance.field_insurance_type__website_message_ids
+msgid "Website communication history"
+msgstr "تاريخ التواصل"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "You can not access this page!"
+msgstr "لا يمكنك الوصول لهذه الصفحة! يرجى إعادة الطلب من الصفحة السابقة."
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "You can't make any new requests!"
+msgstr "لا يمكنك إنشاء طلب جديد!"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/models/approval_request.py:0
+#, python-format
+msgid "You don't have an active messaging api account"
+msgstr "لا يوجد حساب مراسلة فعال!"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "You have insurance fees for two requests need to be paid!"
+msgstr "عليك دفع الرسوم المستحقة لكلا الطلبين!"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "You have one waiting request!"
+msgstr "لديك طلب واحد قيد المعالجة! يرجى الإنتظار."
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "You have to pay the insurance fees!"
+msgstr "يرجى دفع الرسوم المستحقة!"
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "You have two waiting requests!"
+msgstr "لديك طلبين قيد المعالجة! يرجى الإنتظار."
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/controllers/insurance_request.py:0
+#, python-format
+msgid "Your payment request has been done successfully!"
+msgstr "تمت عملية الدفع بنجاح!"
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.expenses_management_company_view_form
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.universities_view_form
+msgid "e.g. https://www.example.com"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_payment_otp_operation
+msgid "أدخل رمز التحقق هنا..."
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__social_status__single
+msgid "أعزب"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__gender__female
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "أنثى"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_type__insurance_type__type_2
+msgid "أنواع أخرى"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:website.menu,name:NUSS_Students_Insurance.menu_insurance_types
+msgid "أنواع التأمين"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__place_of_accommodation__idlib
+msgid "إدلب"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_payment_operation
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_payment_otp_operation
+msgid "إرسال"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_payment_otp_operation
+msgid "إعادة إرسال الرمز"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:website.menu,name:NUSS_Students_Insurance.menu_create_insurance_request
+msgid "إنشاء طلب تأمين"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__fa_name
+msgid "اسم الأب"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__mo_name
+msgid "اسم الأم"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__first_name
+msgid "الاسم"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__university_card
+msgid "البطاقة الجامعية"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:approval.category,name:NUSS_Students_Insurance.approval_category_data_student_insurance
+msgid "التأمين الصحي الطلابي"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:website.menu,name:NUSS_Students_Insurance.menu_insurance
+msgid "التأمين الطلابي"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "التالي"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__university_id
+msgid "الجامعة"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__gender
+msgid "الجنس"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__social_status
+msgid "الحالة الإجتماعية"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__place_of_accommodation__alhasakah
+msgid "الحسكة"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__place_of_accommodation__arraqqah
+msgid "الرقة"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__university_id_number
+msgid "الرقم الجامعي"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__id_number
+msgid "الرقم الوطني"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#. odoo-python
+#: code:addons/NUSS_Students_Insurance/models/insurance_request.py:0
+#, python-format
+msgid "الرقم الوطني خاطئ"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "السابق"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__academic_year
+msgid "السنة الدراسية"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__place_of_accommodation__assuwayda
+msgid "السويداء"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__place_of_accommodation__quneitra
+msgid "القنيطرة"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__faculty_id
+msgid "الكلية"
+msgstr "الكلية أو المعهد"
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__second_name
+msgid "الكنية"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__place_of_accommodation__latakia
+msgid "اللاذقية"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:approval.category,description:NUSS_Students_Insurance.approval_category_data_student_insurance
+msgid "الموافقات المتعلقة بالتأمين الصحي الطلابي"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__id_card_front
+msgid "الوجه الأمامي للهوية"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__id_card_back
+msgid "الوجه الخلفي للهوية"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__approval_category__approval_type__insurance
+msgid "تأمين طلابي"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__birthday
+msgid "تاريخ الميلاد"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__request_owner_id
+msgid "حساب الطالب"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__place_of_accommodation__aleppo
+msgid "حلب"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__place_of_accommodation__hama
+msgid "حماة"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__place_of_accommodation__homs
+msgid "حمص"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_type__insurance_type__type_1
+msgid "حوادث شخصية"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__academic_year__diploma
+msgid "دبلوم"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__academic_year__doctorate
+msgid "دكتوراه"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__place_of_accommodation__damascus
+msgid "دمشق"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__gender__male
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "ذكر"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__student_phone
+msgid "رقم الهاتف"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_payment_operation
+msgid "رقم الهاتف المراد الدفع عن طريقه"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__place_of_accommodation__rif_dimashq
+msgid "ريف دمشق"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__academic_year__first_year
+msgid "سنة أولى"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__academic_year__third_year
+msgid "سنة ثالثة"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__academic_year__second_year
+msgid "سنة ثانية"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__academic_year__fifth_year
+msgid "سنة خامسة"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__academic_year__fourth_year
+msgid "سنة رابعة"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__academic_year__sixth_year
+msgid "سنة سادسة"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:website.menu,name:NUSS_Students_Insurance.menu_emcs
+msgid "شركات إدارة النفقات"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__place_of_accommodation__tartus
+msgid "طرطوس"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "عازب"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#. odoo-javascript
+#: code:addons/NUSS_Students_Insurance/static/src/js/insurance_request_form.js:0
+#, python-format
+msgid "لقد تمت إعادة إرسال الرمز بشكل صحيح!"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#. odoo-javascript
+#: code:addons/NUSS_Students_Insurance/static/src/js/insurance_request_form.js:0
+#, python-format
+msgid "لم تتم عملية إعادة إرسال الرمز بشكل صحيح!"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__academic_year__master
+msgid "ماجستير"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields.selection,name:NUSS_Students_Insurance.selection__insurance_request__social_status__married
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_insurance_request
+msgid "متزوج"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__place_of_accommodation
+msgid "مكان الإقامة"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:ir.model.fields,field_description:NUSS_Students_Insurance.field_insurance_request__insurance_type_id
+msgid "نوع التأمين"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model:website.menu,name:NUSS_Students_Insurance.menu_payment_methods
+msgid "وسائل الدفع"
+msgstr ""
+
+#. module: NUSS_Students_Insurance
+#: model_terms:ir.ui.view,arch_db:NUSS_Students_Insurance.portal_user_payment_operation
+msgid "يرجى استخدام رقم الطلب التأميني"
+msgstr ""

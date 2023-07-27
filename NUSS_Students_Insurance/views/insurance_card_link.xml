@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="portal_layout_inherit" inherit_id="portal.portal_layout">
+        <xpath expr="//div[@class='o_portal_my_details'][1]/div[1]" position="after">
+            <t t-if="has_paid_ins_request">
+                <hr class="mt-1 mb-1"/>
+                <a href="/my/insurance_card">My Insurance Card</a>
+                <hr class="mt-1 mb-1"/>
+            </t>
+        </xpath>
+    </template>
+</odoo>

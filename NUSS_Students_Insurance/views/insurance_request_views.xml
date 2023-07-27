@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id='insurance_request_view_form' model='ir.ui.view'>
+        <field name="name">insurance.request.view.form</field>
+        <field name="model">insurance.request</field>
+        <field name="arch" type="xml">
+            <form string="Insurance Request">
+                <header>
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <field name="related_to_self_count" invisible="1"/>
+                        <field name="payment_operation_id" invisible="1"/>
+                        <button class="oe_stat_button" name="show_payment_operation" type="object"
+                                icon="fa-credit-card" attrs="{'invisible': [('payment_operation_id', '=', False)]}">
+                            <span>Payment Operation</span>
+                        </button>
+                        <button name="show_related_approval" string="Approval Request" type="object"
+                                icon="fa-external-link"
+                                class="oe_stat_button" attrs="{'invisible': [('related_to_self_count', '=', 0)]}">
+                            <field name="related_to_self_count" nolabel="1" widget="statinfo"/>
+                            <span>Approval Requests</span>
+                        </button>
+                    </div>
+                    <div class="oe_title">
+                        <h1>
+                            <field name="name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="request_owner_id"/>
+                            <field name="student_phone" widget="phone" options="{'enable_sms': true}"/>
+                            <field name="first_name"/>
+                            <field name="second_name"/>
+                            <field name="id_number"/>
+                            <field name="fa_name"/>
+                            <field name="mo_name"/>
+                            <field name="gender"/>
+                            <field name="social_status"/>
+                        </group>
+                        <group>
+                            <field name="birthday"/>
+                            <field name="insurance_type_id"/>
+                            <field name="university_id_number"/>
+                            <field name="place_of_accommodation"/>
+                            <field name="university_id"/>
+                            <field name="faculty_id"/>
+                            <field name="academic_year"/>
+                            <field name="expenses_company_id"/>
+                            <field name="payment_operation_id"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Student Files" name='student_files'>
+                            <group>
+                                <field name="id_card_front"/>
+                                <field name="id_card_back"/>
+                                <field name="university_card"/>
+                            </group>
+                        </page>
+                        <page string="Insurance Card Info" name="insurance_card_info"
+                              attrs="{'invisible': [('state', 'not in', ['paid', 'expired'])]}">
+                            <group>
+                                <field name="insurance_number"/>
+                                <field name="is_expired" invisible="1"/>
+                                <field name="insurance_expiration_date"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="insurance_request_view_tree" model='ir.ui.view'>
+        <field name="name">insurance.request.view.tree</field>
+        <field name="model">insurance.request</field>
+        <field name="arch" type="xml">
+            <tree string="Insurance Request">
+                <field name="name" class="fw-bold"/>
+                <field name="first_name"/>
+                <field name="second_name"/>
+                <field name="id_number"/>
+                <field name="expenses_company_id"/>
+                <field name="state"
+                   decoration-success="state == 'paid'"
+                   decoration-warning="state == 'waiting'"
+                   decoration-info="state == 'approved'"
+                   decoration-danger="state == 'refused' or state == 'expired'"
+                   widget="badge" class="text-dark"/>
+                <field name="insurance_number"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

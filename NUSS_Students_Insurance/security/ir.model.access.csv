@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_insurance_request,access_insurance_request,model_insurance_request,,1,1,1,1
+access_in_university,access_in_university,model_in_university,,1,1,1,1
+access_in_messaging,access_in_messaging,model_in_messaging,,1,1,1,1
+access_in_messaging_api,access_in_messaging_api,model_in_messaging_api,,1,1,1,1
+access_expenses_management_company,access_expenses_management_company,model_expenses_management_company,,1,1,1,1
+access_in_payment_method,access_in_payment_method,model_in_payment_method,,1,1,1,1
+access_in_payment_operation,access_in_payment_operation,model_in_payment_operation,,1,1,1,1
+access_insurance_type,access_insurance_type,model_insurance_type,,1,1,1,1
