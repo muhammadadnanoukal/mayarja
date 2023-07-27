@@ -300,12 +300,17 @@ class NussAuthSignupHome(AuthSignupHome):
 
     @http.route('/web/reset_password', type='http', auth='public', website=True, sitemap=False)
     def web_auth_reset_password(self, *args, **kw):
+        print('b6eee5')
         qcontext = self.get_auth_signup_qcontext()
+
+        _logger.info("qcontext in reset_password: %s", qcontext)
 
         if not qcontext.get('token') and not qcontext.get('reset_password_enabled'):
             raise werkzeug.exceptions.NotFound()
 
         if 'error' not in qcontext and request.httprequest.method == 'POST':
+            _logger.info("qcontext in reset_password  if 'error' not in qcontext and request.httprequest.method == 'POST': %s", qcontext)
+
             try:
                 if qcontext.get('token'):
                     self.do_signup(qcontext)
@@ -327,12 +332,17 @@ class NussAuthSignupHome(AuthSignupHome):
                 qcontext['error'] = str(e)
 
         elif 'signup_email' in qcontext:
+
+            _logger.info("qcontext in reset_password   elif 'signup_email' in qcontext: %s", qcontext)
+
             user = request.env['res.users'].sudo().search(
                 [('email', '=', qcontext.get('signup_email')), ('state', '!=', 'new')], limit=1)
             if user:
                 return request.redirect('/web/login?%s' % url_encode({'login': user.login, 'redirect': '/web'}))
 
         response = request.render('auth_signup.reset_password', qcontext)
+        _logger.info("response in reset_password   %s", response)
+        _logger.info("response  qcontext in reset_password   %s", qcontext)
         response.headers['X-Frame-Options'] = 'SAMEORIGIN'
         response.headers['Content-Security-Policy'] = "frame-ancestors 'self'"
         return response
