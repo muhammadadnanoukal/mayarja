@@ -12,10 +12,7 @@
                        role="img"/>
                     Go to payment form
                 </a>
-                <!--                     <td class="text-xl-end border-top border-bottom-0">-->
-                <!--                          <strong t-field="website_sale_order.amount_total" class="monetary_field"-->
-                <!--                              t-options='{"widget": "monetary", "display_currency": website_sale_order.pricelist_id.currency_id}'/>-->
-                <!--                      </td>-->
+
             </div>
         </xpath>
     </template>
