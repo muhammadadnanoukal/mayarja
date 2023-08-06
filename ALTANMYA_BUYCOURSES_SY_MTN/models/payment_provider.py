@@ -8,7 +8,7 @@ class PaymentProvider(models.Model):
     _inherit = 'payment.provider'
 
     code = fields.Selection(selection_add=[('syriatell12', 'Syriatell12')], ondelete={'syriatell12': 'set default'})
-
+    test = fields.Char('test')
     #=== COMPUTE METHODS ===#
 
     @api.depends('code')
