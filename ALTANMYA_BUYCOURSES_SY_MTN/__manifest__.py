@@ -26,9 +26,14 @@
     'author': 'ALTANMYA - TECHNOLOGY SOLUTIONS',
     'company': 'ALTANMYA - TECHNOLOGY SOLUTIONS Part of ALTANMYA GROUP',
     'website': "http://tech.altanmya.net",
-    'depends': ['base', 'approvals', 'mail', 'website', 'portal', 'website_mail', 'web'],
+    'depends': ['base', 'approvals', 'mail', 'website', 'portal', 'website_mail', 'web','payment'],
     'data': [
+        'views/payment_demo_templates.xml',
         'views/payment_method.xml',
+        'views/payment_templates.xml',
+        'views/payment_token_views.xml',
+        'views/payment_transaction_views.xml',
+        'data/payment_provider_data.xml',
     ],
     'assets': {
         'web.assets_frontend': [

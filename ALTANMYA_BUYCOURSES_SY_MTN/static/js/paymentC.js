@@ -1,110 +1,67 @@
-//odoo.define('ALTANMYA_BUYCOURSES_SY_MTN.portal_insurance_messageC', require => {
-//    'use strict';
-//
-//    const publicWidget = require('web.public.widget');
-//
-//    const paymentFormMixin = require('payment.payment_form_mixin');
-//    console.log('paymentFormMixin')
-//    publicWidget.registry.PaymentCheckoutForm = publicWidget.Widget.extend(paymentFormMixin, {
-//        selector: 'form[name="o_payment_checkout"]',
-//        events: Object.assign({}, publicWidget.Widget.prototype.events, {
-//                'click div[name="o_payment_option_card"]': '_onClickPaymentOption',
-//                'click a[name="o_payment_icon_more"]': '_onClickMorePaymentIcons',
-//                'click a[name="o_payment_icon_less"]': '_onClickLessPaymentIcons',
-//                'click button[name="o_payment_submit_button"]': '_onClickPay',
-//                'submit': '_onSubmit',
-//            }),
-//
-//        /**
-//         * @constructor
-//         */
-//        init: function () {
-//            const preventDoubleClick = handlerMethod => {
-//                return _.debounce(handlerMethod, 500, true);
-//            };
-//            this._super(...arguments);
-//            // Prevent double-clicks and browser glitches on all inputs
-//            this._onClickLessPaymentIcons = preventDoubleClick(this._onClickLessPaymentIcons);
-//            this._onClickMorePaymentIcons = preventDoubleClick(this._onClickMorePaymentIcons);
-//            this._onClickPay = preventDoubleClick(this._onClickPay);
-//            this._onClickPaymentOption = preventDoubleClick(this._onClickPaymentOption);
-//            this._onSubmit = preventDoubleClick(this._onSubmit);
-//        },
-//
-//        //--------------------------------------------------------------------------
-//        // Handlers
-//        //--------------------------------------------------------------------------
-//
-//        /**
-//         * Handle a direct payment, a payment with redirection, or a payment by token.
-//         *
-//         * Called when clicking on the 'Pay' button or when submitting the form.
-//         *
-//         * @private
-//         * @param {Event} ev
-//         * @return {undefined}
-//         */
-//        _onClickPay: async function (ev) {
-//            ev.stopPropagation();
-//            ev.preventDefault();
-//
-//            // Check that the user has selected a payment option
-//            const $checkedRadios = this.$('input[name="o_payment_radio"]:checked');
-//            console.log('===$checkedRadiostest==',$checkedRadios[0]);
-//            if (!this._ensureRadioIsChecked($checkedRadios)) {
-//                return;
-//            }
-//            const checkedRadio = $checkedRadios[0];
-//
-//            // Extract contextual values from the radio button
-//            const provider = this._getProviderFromRadio(checkedRadio);
-//            const paymentOptionId = this._getPaymentOptionIdFromRadio(checkedRadio);
-//            const flow = this._getPaymentFlowFromRadio(checkedRadio);
-//
-//            // Update the tx context with the value of the "Save my payment details" checkbox
-//            if (flow !== 'token') {
-//                const $tokenizeCheckbox = this.$(
-//                    `#o_payment_provider_inline_form_${paymentOptionId}` // Only match provider radios
-//                ).find('input[name="o_payment_save_as_token"]');
-//                this.txContext.tokenizationRequested = $tokenizeCheckbox.length === 1
-//                    && $tokenizeCheckbox[0].checked;
-//            } else {
-//                this.txContext.tokenizationRequested = false;
-//            }
-//
-//            // Make the payment
-//            this._hideError(); // Don't keep the error displayed if the user is going through 3DS2
-//            this._disableButton(true); // Disable until it is needed again
-//            $('body').block({
-//                message: false,
-//                overlayCSS: {backgroundColor: "#000", opacity: 0, zIndex: 1050},
-//            });
-//            this._processPayment(provider, paymentOptionId, flow);
-//        },
-//
-//        /**
-//         * Delegate the handling of the payment request to `_onClickPay`.
-//         *
-//         * Called when submitting the form (e.g. through the Return key).
-//         *
-//         * @private
-//         * @param {Event} ev
-//         * @return {undefined}
-//         */
-//        _onSubmit: function (ev) {
-//            ev.stopPropagation();
-//            ev.preventDefault();
-//
-//            this._onClickPay(ev);
-//        },
-//
-//    });
-//    return publicWidget.registry.PaymentCheckoutForm;
-//});
-//window.onClickPay = async function () {
-//    // Here you can add any necessary code before calling the original _onClickPay function.
-//    // For example, you might want to set the necessary context before calling it.
-//
-//    // Call the original _onClickPay function from the Odoo widget.
-//    publicWidget.registry.PaymentCheckoutForm.prototype._onClickPay.call({/* Add your widget context here */});
-//};
+odoo.define('ALTANMYA_BUYCOURSES_SY_MTN.payment_form', require => {
+    'use strict';
+
+    const checkoutForm = require('payment.checkout_form');
+    const manageForm = require('payment.manage_form');
+
+    const paymentDemoMixin = {
+
+        //--------------------------------------------------------------------------
+        // Private
+        //--------------------------------------------------------------------------
+
+        /**
+         * Simulate a feedback from a payment provider and redirect the customer to the status page.
+         *
+         * @override method from payment.payment_form_mixin
+         * @private
+         * @param {string} code - The code of the provider
+         * @param {number} providerId - The id of the provider handling the transaction
+         * @param {object} processingValues - The processing values of the transaction
+         * @return {Promise}
+         */
+        _processDirectPayment: function (code, providerId, processingValues) {
+        console.log('syrooooooooooooooooooooooo|code',code)
+        console.log('syrooooooooooooooooooooooo|providerId',providerId)
+        console.log('syrooooooooooooooooooooooo|processingValues',processingValues)
+            if (code !== 'syriatell12') {
+                return this._super(...arguments);
+            }
+
+            const customerInput = document.getElementById('customer_input').value;
+            const simulatedPaymentState = document.getElementById('simulated_payment_state').value;
+            return this._rpc({
+                route: '/payment/syriatell12/simulate_payment',
+                params: {
+                    'reference': processingValues.reference,
+                    'payment_details': customerInput,
+                    'simulated_state': simulatedPaymentState,
+                },
+            }).then(() => {
+                window.location = '/payment/status';
+            });
+        },
+
+        /**
+         * Prepare the inline form of Demo for direct payment.
+         *
+         * @override method from payment.payment_form_mixin
+         * @private
+         * @param {string} code - The code of the selected payment option's provider
+         * @param {integer} paymentOptionId - The id of the selected payment option
+         * @param {string} flow - The online payment flow of the selected payment option
+         * @return {Promise}
+         */
+        _prepareInlineForm: function (code, paymentOptionId, flow) {
+            if (code !== 'syriatell12') {
+                return this._super(...arguments);
+            } else if (flow === 'token') {
+                return Promise.resolve();
+            }
+            this._setPaymentFlow('direct');
+            return Promise.resolve()
+        },
+    };
+    checkoutForm.include(paymentDemoMixin);
+    manageForm.include(paymentDemoMixin);
+});

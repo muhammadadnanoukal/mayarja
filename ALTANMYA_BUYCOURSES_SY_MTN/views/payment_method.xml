@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
+
+
     <template id="ALTANMYA_BUYCOURSES_SY_MTN.payment_methods_course" inherit_id="website_sale.payment">
         <xpath expr="//div[@id='payment_method'][1]/t[1]" position="after">
             <div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="payment_provider_syriatell_2" model="payment.provider">
+        <field name="code">syriatell12</field>
+        <field name="name">syriatell12</field>
+        <field name="state">test</field>
+<!--        <field name="company_id">1</field>-->
+        <field name="inline_form_view_id" ref="ALTANMYA_BUYCOURSES_SY_MTN.inline_form"/>
+        <field name="token_inline_form_view_id" ref="ALTANMYA_BUYCOURSES_SY_MTN.token_inline_form"/>
+        <field name="allow_tokenization">True</field>
+    </record>
+
+</odoo>
+
