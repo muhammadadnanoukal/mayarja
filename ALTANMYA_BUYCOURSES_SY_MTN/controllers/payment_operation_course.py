@@ -20,6 +20,19 @@ from .request_states import UserInsuranceState
 from odoo.http import request
 from werkzeug.utils import redirect
 
+class PaymentDemoController(http.Controller):
+    _simulation_url = '/payment/syriatell12/simulate_payment'
+
+    @http.route(_simulation_url, type='json', auth='public')
+    def demo_simulate_payment(self, **data):
+        """ Simulate the response of a payment request.
+
+        :param dict data: The simulated notification data.
+        :return: None
+        """
+        request.env['payment.transaction'].sudo()._handle_notification_data('syriatell12', data)
+
+
 
 class paymentoperationC(http.Controller):
     def handle_status(self, user_request_status):
