@@ -9,12 +9,12 @@ class PaymentProvider(models.Model):
 
     code = fields.Selection(selection_add=[('syriatell12', 'Syriatell12')], ondelete={'syriatell12': 'set default'})
     test = fields.Char('test')
-    # merchant_username = fields.Char(
-    #     string="merchant_username",
-    #     help="The public business merchant_username solely used to identify the account with syriatell cash",
-    #     required_if_provider='syriatell12')
-    # merchant_password = fields.Char(string="Merchant Password")
-    # mobile = fields.Char(string="mobile")
+    merchant_username = fields.Char(
+        string="merchant_username",
+        help="The public business merchant_username solely used to identify the account with syriatell cash",
+        required_if_provider='syriatell12')
+    merchant_password = fields.Char(string="Merchant Password")
+    mobile = fields.Char(string="mobile")
     #=== COMPUTE METHODS ===#
 
     @api.depends('code')
