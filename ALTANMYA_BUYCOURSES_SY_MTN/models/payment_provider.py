@@ -13,7 +13,11 @@ class PaymentProvider(models.Model):
 
     @api.depends('code')
     def _compute_journal_id(self):
+
         for provider in self:
+            print('==>provider', provider)
+            print('==>provider.code', provider.code)
+            print('==>provider.company_id.id', provider.company_id.id)
             payment_method = self.env['account.payment.method.line'].search([
                 ('journal_id.company_id', '=', provider.company_id.id),
                 ('code', '=', provider.code)
@@ -25,6 +29,15 @@ class PaymentProvider(models.Model):
             else:
                 print('else payment_method',  provider.journal_id)
                 provider.journal_id = False
+
+    @api.model
+    def _remove_provider(self, code):
+        """ Override of `payment` to delete the payment method of the provider. """
+        super()._remove_provider(code)
+        self._get_provider_payment_method(code).unlink()
+
+
+
 
     @api.depends('code')
     def _compute_view_configuration_fields(self):
@@ -51,3 +64,56 @@ class PaymentProvider(models.Model):
     def _check_provider_state(self):
         if self.filtered(lambda p: p.code == 'syriatell12' and p.state not in ('test', 'disabled')):
             raise UserError(_("syriatell12 providers should never be enabled."))
+
+    @api.model
+    def _get_default_payment_method_id(self, code):
+        provider_payment_method = self._get_provider_payment_method(code)
+        if provider_payment_method:
+            return provider_payment_method.id
+        return self.env.ref('account.account_payment_method_manual_in').id
+
+    @api.model
+    def _get_provider_payment_method(self, code):
+        return self.env['account.payment.method'].search([('code', '=', code)], limit=1)
+
+    # === BUSINESS METHODS ===#
+
+    @api.model
+    def _setup_provider(self, code):
+        """ Override of `payment` to create the payment method of the provider. """
+        super()._setup_provider(code)
+        self._setup_payment_method(code)
+
+
+    @api.model
+    def _setup_payment_method(self, code):
+        if code not in ('none', 'custom') and not self._get_provider_payment_method(code):
+            providers_description = dict(self._fields['code']._description_selection(self.env))
+            self.env['account.payment.method'].create({
+                'name': providers_description[code],
+                'code': code,
+                'payment_type': 'inbound',
+            })
+
+    @api.model
+    def _remove_provider(self, code):
+        """ Override of `payment` to delete the payment method of the provider. """
+        super()._remove_provider(code)
+        self._get_provider_payment_method(code).unlink()
+
+
+
+    def button_immediate_install(self):
+        """ Install the module and reload the page.
+
+        Note: `self.ensure_one()`
+
+        :return: The action to reload the page.
+        :rtype: dict
+        """
+        if self.module_id and self.module_state != 'installed':
+            self.module_id.button_immediate_install()
+            return {
+                'type': 'ir.actions.client',
+                'tag': 'reload',
+            }
