@@ -5,6 +5,7 @@
         <field name="code">syriatell12</field>
         <field name="name">syriatell12</field>
         <field name="state">test</field>
+        <field name="company_id">1</field>
         <field name="is_published">false</field>
         <field name="module_state">installed</field>
 <!--        <field name="company_id">1</field>-->

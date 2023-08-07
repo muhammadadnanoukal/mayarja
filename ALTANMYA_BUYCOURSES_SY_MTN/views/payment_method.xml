@@ -3,19 +3,19 @@
 
 
 
-    <template id="ALTANMYA_BUYCOURSES_SY_MTN.payment_methods_course" inherit_id="website_sale.payment">
-        <xpath expr="//div[@id='payment_method'][1]/t[1]" position="after">
-            <div>
-                <a t-attf-href="/payment_methods_c/#{website_sale_order.id}">
-                    <i class="fa fa-fw fa-arrow-right mx-1" aria-label="Payment Link"
-                       title="Payment Link"
-                       role="img"/>
-                    Go to payment form
-                </a>
-
-            </div>
-        </xpath>
-    </template>
+<!--    <template id="ALTANMYA_BUYCOURSES_SY_MTN.payment_methods_course" inherit_id="website_sale.payment">-->
+<!--        <xpath expr="//div[@id='payment_method'][1]/t[1]" position="after">-->
+<!--            <div>-->
+<!--                <a t-attf-href="/payment_methods_c/#{website_sale_order.id}">-->
+<!--                    <i class="fa fa-fw fa-arrow-right mx-1" aria-label="Payment Link"-->
+<!--                       title="Payment Link"-->
+<!--                       role="img"/>-->
+<!--                    Go to payment form-->
+<!--                </a>-->
+<!--   -->
+<!--            </div>-->
+<!--        </xpath>-->
+<!--    </template>-->
 
     <template id="ALTANMYA_BUYCOURSES_SY_MTN.new_tst">
         <t t-call="website.layout">

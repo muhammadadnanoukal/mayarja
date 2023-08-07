@@ -30,6 +30,7 @@ class PaymentDemoController(http.Controller):
         :param dict data: The simulated notification data.
         :return: None
         """
+        print('4445475test function demo_simulate_payment')
         request.env['payment.transaction'].sudo()._handle_notification_data('syriatell12', data)
 
 

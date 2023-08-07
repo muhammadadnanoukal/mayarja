@@ -30,6 +30,9 @@ odoo.define('ALTANMYA_BUYCOURSES_SY_MTN.payment_form', require => {
 
             const customerInput = document.getElementById('customer_input').value;
             const simulatedPaymentState = document.getElementById('simulated_payment_state').value;
+            console.log('processingValues=>',processingValues.reference)
+            console.log('processingValues=>',customerInput)
+            console.log('processingValues=>',simulatedPaymentState)
             return this._rpc({
                 route: '/payment/syriatell12/simulate_payment',
                 params: {
