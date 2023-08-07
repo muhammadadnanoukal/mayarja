@@ -8,10 +8,10 @@
 <!--        <field name="module_to_buy">true</field>-->
 <!--        <field name="is_published">false</field>-->
         <field name="module_state">uninstalled</field>
-        <field name="module_id" ref="base.module_ALTANMYA_BUYCOURSES_SY_MTN"/>
         <field name="inline_form_view_id" ref="ALTANMYA_BUYCOURSES_SY_MTN.inline_form"/>
         <field name="token_inline_form_view_id" ref="ALTANMYA_BUYCOURSES_SY_MTN.token_inline_form"/>
         <field name="allow_tokenization">True</field>
+        <field name="module_id" ref="base.module_ALTANMYA_BUYCOURSES_SY_MTN"/>
     </record>
 
 </odoo>

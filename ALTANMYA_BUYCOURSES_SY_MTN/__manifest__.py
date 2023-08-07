@@ -40,6 +40,8 @@
             'ALTANMYA_BUYCOURSES_SY_MTN/static/js/paymentC.js',
         ],
     },
+    'post_init_hook': 'post_init_hook',
+    'uninstall_hook': 'uninstall_hook',
     'installable': True,
     'application': True,
     'auto_install': False,
