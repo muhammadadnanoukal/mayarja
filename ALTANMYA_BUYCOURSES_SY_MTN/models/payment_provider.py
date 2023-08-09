@@ -53,7 +53,7 @@ class PaymentProvider(models.Model):
         :return: None
         """
         super()._compute_view_configuration_fields()
-        self.filtered(lambda p: p.code == 'syriatell12').show_credentials_page = False
+        self.filtered(lambda p: p.code == 'syriatell12').show_credentials_page = True
 
     def _compute_feature_support_fields(self):
         """ Override of `payment` to enable additional features. """
@@ -124,3 +124,39 @@ class PaymentProvider(models.Model):
                 'type': 'ir.actions.client',
                 'tag': 'reload',
             }
+
+    @api.depends('code')
+    def _compute_view_configuration_fields(self):
+        """ Compute the view configuration fields based on the provider.
+
+        View configuration fields are used to hide specific elements (notebook pages, fields, etc.)
+        from the form view of payment providers. These fields are set to `True` by default and are
+        as follows:
+
+        - `show_credentials_page`: Whether the "Credentials" notebook page should be shown.
+        - `show_allow_tokenization`: Whether the `allow_tokenization` field should be shown.
+        - `show_allow_express_checkout`: Whether the `allow_express_checkout` field should be shown.
+        - `show_payment_icon_ids`: Whether the `payment_icon_ids` field should be shown.
+        - `show_pre_msg`: Whether the `pre_msg` field should be shown.
+        - `show_pending_msg`: Whether the `pending_msg` field should be shown.
+        - `show_auth_msg`: Whether the `auth_msg` field should be shown.
+        - `show_done_msg`: Whether the `done_msg` field should be shown.
+        - `show_cancel_msg`: Whether the `cancel_msg` field should be shown.
+
+        For a provider to hide specific elements of the form view, it must override this method and
+        set the related view configuration fields to `False` on the appropriate `payment.provider`
+        records.
+
+        :return: None
+        """
+        self.update({
+            'show_credentials_page': True,
+            'show_allow_tokenization': True,
+            'show_allow_express_checkout': True,
+            'show_payment_icon_ids': True,
+            'show_pre_msg': True,
+            'show_pending_msg': True,
+            'show_auth_msg': True,
+            'show_done_msg': True,
+            'show_cancel_msg': True,
+        })
