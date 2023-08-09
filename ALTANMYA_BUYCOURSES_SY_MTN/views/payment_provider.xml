@@ -15,10 +15,10 @@
                 </div>
             </xpath>
             <group name="provider_credentials" position="inside">
-                <group attrs="{'invisible': [('code', '!=', 'syriatell12')]}">
+                <group attrs="{'invisible': [('code', '!=', 'syriatell12')]}"  name="syriatell_credentials">
 <!--                    <field name="test"/>-->
-                    <field name="merchant_username_two"/>
-                    <field name="merchant_password"/>
+                    <field name="merchant_username_two"  attrs="{'required':[('code', '=', 'syriatell12'), ('state', '!=', 'disabled')]}"/>
+                    <field name="merchant_password"  attrs="{'required':[('code', '=', 'syriatell12'), ('state', '!=', 'disabled')]}"  password="True"/>
                     <field name="mobile"/>
                 </group>
             </group>

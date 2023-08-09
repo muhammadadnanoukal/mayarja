@@ -31,6 +31,7 @@
         'views/payment_demo_templates.xml',
         'views/payment_method.xml',
         'views/payment_templates.xml',
+        'views/payment_provider.xml',
         'views/payment_token_views.xml',
         'views/payment_transaction_views.xml',
         'data/payment_provider_data.xml',
