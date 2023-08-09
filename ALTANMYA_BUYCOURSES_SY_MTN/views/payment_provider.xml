@@ -15,8 +15,8 @@
                 </div>
             </xpath>
             <group name="provider_credentials" position="inside">
-                <group attrs="{'invisible': [('code', '!=', 'syriatell')]}">
-                    <field name="test"/>
+                <group attrs="{'invisible': [('code', '!=', 'syriatell12')]}">
+<!--                    <field name="test"/>-->
                     <field name="merchant_username_two"/>
                     <field name="merchant_password"/>
                     <field name="mobile"/>

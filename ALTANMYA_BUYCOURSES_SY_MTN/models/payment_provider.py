@@ -11,9 +11,11 @@ class PaymentProvider(models.Model):
     test = fields.Char('test')
     merchant_username_two = fields.Char(
         string="merchant_username",
-        help="The public business merchant_username solely used to identify the account with syriatell cash")
+        help="The public business merchant_username solely used to identify the account with syriatell cash",
+        required_if_provider='syriatell12')
     merchant_password = fields.Char(string="Merchant Password")
     mobile = fields.Char(string="mobile")
+
     #=== COMPUTE METHODS ===#
 
     @api.depends('code')
