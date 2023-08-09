@@ -17,9 +17,9 @@
             <group name="provider_credentials" position="inside">
                 <group attrs="{'invisible': [('code', '!=', 'syriatell')]}">
                     <field name="test"/>
-                    <field name="merchant_username"/>
-                    <field name="merchant_password"/>
-                    <field name="mobile"/>
+<!--                    <field name="merchant_username"/>-->
+<!--                    <field name="merchant_password"/>-->
+<!--                    <field name="mobile"/>-->
                 </group>
             </group>
         </field>
